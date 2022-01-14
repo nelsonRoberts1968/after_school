@@ -1,0 +1,25 @@
+{
+  "name": "after_school",
+  "version": "1.0.0",
+  "description": "website providing information about after school programs.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonRoberts1968/after_school.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonRoberts1968/after_school/issues"
+  },
+  "homepage": "https://github.com/nelsonRoberts1968/after_school#readme", 
+  "dependencies": {
+    "express":"^4.17.2",
+    "express-handlebars":"^6.0.2",
+    "express-session":"^1.17.2"
+    }
+}
