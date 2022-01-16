@@ -3,18 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kids and Youth Online Courses</title>
   <link rel="stylesheet" href="/css/styles.css">
+  
 </head>
 
 <body>
   <div class="wrapper">
    <header>
-     <div> NAME OF OUR PROJECT</div>
-     <div id="navbar"> About Us |  Login  |  Vendors  |  Contact Us </div>
-        <div id="logo"><img src="./images/logo.jpg" alt="logo" title="LOGO" />
-        </div>
-        <h1 class="title">KIDS AND YOUTH ONLINE CLASSES</h1>
+
+     <div id="Tophead">
+      <div id="logo"><img src="./images/logo.jpg" alt="logo" title="LOGO" /></div>
+      {{!-- <div id="title">Center For ONLINE KIDS CLASS SEARCH</div> --}}
+     </div>
+
+    <div id="Top">
+        <div id="navbar"><a href="about.html">&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;</a> |<a href="login.js">&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;</a>|<a href="contact.html">&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+
+        {{!-- Search Form --}}
+            <form class="form">
+            <div>
+              <label >Search Classes&nbsp;&nbsp;</label><input type="text">
+                     
+                     <select name="Categories" id="Categories">
+                       <option value="CATEGORY"selected>SELECT A CATEGORY</option>
+                       <option value="ARTS">ARTS</option>
+	                     <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Painting</option>
+	                     <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Sewing and Fashion</option>
+	                     <option value="SPORTS">SPORTS</option>
+	                     <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Basketball</option>
+	                     <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Tennis</option>
+                       <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Soccer</option>
+                       <option value="MUSIC">MUSIC</option>
+	                     <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Piano</option>
+	                     <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Guitar</option>
+                       <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Violin</option>
+                       <option value="STEM">STEM</option>
+	                     <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Math</option>
+	                     <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Science</option>
+                       <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Coding</option>
+                       <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Chess</option>
+                       <option value="DANCE">DANCE</option>
+                       <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Ballet</option>
+	                     <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Flamenco</option>
+                       <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Zumba</option>
+                       <option value="LABEL URL" >&nbsp;&nbsp;&nbsp;Hip Hop</option>
+                       <option value="TUTORING">TUTORING</option>
+                       <option value="SUMMER/WINTER CAMPS">SUMMER/WINTER CAMPS</option>
+                       <option value="CHILD CARE">CHILD CARE</option>
+                     </select>
+              
+                     <select name="Locations" id="Locations">
+                       <option value="CITY" selected>SELECT A CITY</option>
+                       <option value="Sacramento">Sacramento</option>
+                       <option value="Davis">Davis</option>
+                       <option value="Elk Grove">Elk Grove</option>
+                       <option value="Folsom">Folsom</option>
+                     </select> 
+                     <button class="button">Search</button>      
+            </div>
+
+      </form>  
+
+    </div>    
     </header>
 
     <main>
@@ -22,9 +72,9 @@
     </main>
     <!--footer-->
     <footer class="footer">
-        <div >
+        <div id="footer">
             <p style="text-align: center;"> <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a>| <a href="https://github.com/nelsonRoberts1968/after_school">SOURCE</a> </p>
-            <p style="text-align: center; font-size:14px">&copy; 2022 Kids and Youth Online Courses</p>
+            <p style="text-align: center; font-size:14px">&copy; 2022 Club Hub Kids</p>
         </div>
     </footer>
   </div>
