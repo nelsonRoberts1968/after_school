@@ -1,0 +1,59 @@
+<div class="container is-widescreen m-auto">
+    <div class="notification is-primary is-centered section">
+        <p class="title">Parent Dashboard</p>
+    </div>
+</div> 
+
+<div class="tile is-ancestor">
+    <div class="tile is-parent is-vertical is-5 m-auto">
+        <div class="tile is-child">
+            <p class="title">Account Information</p>
+                <p>Name: {{account.firstname}} {{account.lastname}}</p> 
+                <p>Address: {{account.street}} {{account.city}}, {{account.state}} {{account.zip}}</p>
+                <p>Username:{{username}}</p>
+                <p>Children:
+                    <ul class = "children_list">
+                        {{#each children}}
+                        <li>
+                            {{#with children}}
+                            Name:{{firstname}} {{lastname}}
+                            Age: {{age}}
+                        </li>
+                    </ul>  
+                </p>
+                <p>Interests: {{account.interests}}</p>
+                <p>Location: {{account.location}}</p>
+                <br>
+               <button id="account-edit">Edit</button>
+               
+        </div>
+        <div class="tile is-parent is-vertical is-5 m-auto">
+            <div class="content">
+                <p class="title">What's New</p>
+                <div id="feed-div" class="content">
+                    <ul class = "event-list">
+                    {{#each newEvent}}
+                    <li>
+                        {{#with newEvent}}
+                        {{eventName}}
+                        {{eventDescription}}
+                        {{eventDate}}
+                        {{eventLocation}}
+                        {{eventCategory}}
+                        {{link "See more details" url}}
+                        <form action="/html/tags/html_form_tag_action.cfm" method="post" onSubmit="">
+                            <div>
+                                <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;"
+                                minlength="5"
+                                maxlength="120">Write a comment!
+                                </textarea>
+                            </div>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    
