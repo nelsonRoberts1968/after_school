@@ -193,53 +193,52 @@ img{
 	
 	/* Smartphones (portrait) ----------- */
 	@media only screen and (max-width : 320px) {
-	/* Styles */
+		body{font-size:14px;}
 	}
 	
 	/* iPads (portrait and landscape) ----------- */
 	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-	/* Styles */
+		body{font-size:16px;}
 	}
 	
 	/* iPads (landscape) ----------- */
 	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-	/* Styles */
+		body{font-size:16px;}
 	}
 	
 	/* iPads (portrait) ----------- */
 	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-	/* Styles */
+		body{font-size:16px;}
 	}
 	/**********
 	iPad 3
 	**********/
 	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-	/* Styles */
+		body{font-size:16px;}
 	}
 	
 	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-	/* Styles */
+		body{font-size:16px;}
 	}
 	/* Desktops and laptops ----------- */
 	@media only screen  and (min-width : 1224px) {
-	/* Styles */
+		body{font-size:16px;}
 	}
 	
 	/* Large screens ----------- */
 	@media only screen  and (min-width : 1824px) {
-	/* Styles */
+		body{font-size:16px;}
 	}
 	
 	/* iPhone 4 ----------- */
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-	/* Styles */
-	}
+		body{font-size:14px;}
 	
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-	/* Styles */
+		body{font-size:14px;}
 	}
 	
 	/* iPhone 5 ----------- */
 	@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-	/* Styles */
+		body{font-size:14px;}
 	}
