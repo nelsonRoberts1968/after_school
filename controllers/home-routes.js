@@ -1,3 +1,5 @@
+
+
 const router = require('express').Router();
 const { Account, Category, Course, Location, User } = require('../models');
 
@@ -9,6 +11,49 @@ const withAuth = require('../utils/auth');
 router.get('/', async (req, res) => {
     res.render('homepage');
 });
+
+router.get('/login',(req, res) =>{
+    res.render('login');
+})
+    router.post((req, res) => {
+        var username = req.body.username,
+            password = req.body.password;
+    
+        User.findOne({ where: { username: username } }).then(function (user) {
+            if (!user) {
+                res.redirect('/login');
+                res.render('login');
+            } else if (!user.validPassword(password)) {
+                res.redirect('/signup');
+                res.render('signup');
+            } else {
+                req.session.user = user.dataValues;
+                res.redirect('/');
+            }
+        });
+    });
+
+   
+
+// route for user signup
+router.get('/signup',(req, res) => {
+        //res.sendFile(__dirname + '/public/signup.html');
+        res.render('signup', hbsContent);
+    })
+    .post((req, res) => {
+        User.create({
+            username: req.body.username,
+            //email: req.body.email,
+            password: req.body.password
+        })
+        .then(user => {
+            req.session.user = user.dataValues;
+            res.redirect('/');
+        })
+        .catch(error => {
+            res.redirect('/signup');
+        });
+    });
 
 //get all courses
 router.get('/courses', async (req, res) => {
@@ -25,8 +70,8 @@ router.get('/courses', async (req, res) => {
 });
 
 
-// GET course by name
-// Use the custom middleware before allowing the user to access the course
+//GET course by name
+//Use the custom middleware before allowing the user to access the course
 // router.get('/courses/:title', withAuth, async (req, res) => {
 //   try {
 //     const dbCourseData = await Course.findByPk(req.params.id);
