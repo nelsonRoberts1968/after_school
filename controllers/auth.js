@@ -23,7 +23,7 @@ const signup = (userinfo) => {
     passwordConfirm,
   } = userinfo;
   //checking if there is someone else with the same email already in the users table.
-  db.query("SELECT email FROM signup  WHERE email = ? ",
+  db.query(`SELECT email FROM signup  WHERE email = ? `,
     [email], async (error, results) => {
       if (error) {
         console.log(error);
@@ -41,7 +41,7 @@ const signup = (userinfo) => {
       console.log(hashedPassword);
       //Inserting form information into the database signup table
 
-      db.query('INSERT INTO signup SET ?',{firstname: firstname,
+      db.query(`INSERT INTO signup SET ?`,{firstname: firstname,
         lastname: lastname, email: email, address: address, city: city,
         state: state,
         zipcode: zipcode,
