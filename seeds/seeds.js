@@ -21,8 +21,12 @@ await Account.bulkCreate(accountSeedData, {
     individualHooks: true,
     returning: true,
   });
-  await course.bulkCreate(classSeedData, {
+  await Course.bulkCreate(courseSeedData, {
     individualHooks: true,
+    returning: true,
+  });
+  await User.bulkCreate(userSeedData, {
+     individualHooks: true,
     returning: true,
   });
 
