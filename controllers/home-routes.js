@@ -8,7 +8,9 @@ const withAuth = require('../utils/auth');
 router.get('./view/about', (req, res) => {
   res.render('main', { layout: 'about' });
 });
-
+router.get('/signup', (req, res) => {
+    res.render('signup');
+})
 router.get('/login', (req, res) => {
   if (req.session.loggedIn) {
     res.redirect('/');
