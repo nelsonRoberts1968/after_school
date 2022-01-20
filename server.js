@@ -18,15 +18,16 @@ const sess = {
   //will allow tracking of logged in user accross sessions
   //key:'user_sid',
   secret: 'Super secret secret',
-  cookie: {
-    expires:600000
-  }, 
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
     db: sequelize,
   }),
 };
+
+app.use(session(sess));
+
+
 
 const hbs = exphbs.create({ helpers });
 

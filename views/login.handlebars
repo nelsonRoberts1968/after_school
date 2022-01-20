@@ -1,13 +1,13 @@
 <div class="container row">
   <div class="jumbotron col-sm-4 pull-center">
-    <form action="/login" method="post">
+    <form class="login-form" action="/login" method="POST">
       <div>
-        <label>Username:</label>
-        <input type="text" name="username" />
+        <label>email:</label>
+        <input type="text" name="email" id="email-login" />
       </div>
       <div>
         <label>Password:</label>
-        <input type="password" name="password" />
+        <input type="password" name="password" id="password-login" />
       </div>
       <div>
         <input class="btn btn-primary" type="submit" value="Log In" />
