@@ -4,45 +4,53 @@ const { Account, Category, Course, Location, User } = require('../models');
 //Import the custom middleware
 const withAuth = require('../utils/auth');
 
-// render homepage
-router.get('/', async (req, res) => {
-  res.render('homepage');
-});
-
+//render about us
 router.get('./view/about', (req, res) => {
   res.render('main', { layout: 'about' });
 });
 
-//get all courses
-router.get('/courses', async (req, res) => {
-  try {
-    const dbCourseData = await Course.findAll({
-      include: [{ all: true, nested: true }],
-    });
-    dbCourseData.map((Course) => {
-      Course.get({ plain: true });
-    });
-    res.render('courses');
-  } catch (err) {
-    console.log(err);
-    res.status(500).json(err);
-  }
-});
+// //get all courses
+// router.get('/courses', async (req, res) => {
+//   try {
+//     const dbCourseData = await Course.findAll({
+//       include: [
+//         {
+//           model: Course,
+//           attributes: ['title', 'description', 'ages', 'location', 'url'],
+//         },
+//       ],
+//     });
 
-// GET course by name
-// Use the custom middleware before allowing the user to access the course
-router.get('/courses/:id', withAuth, async (req, res) => {
-  try {
-    const dbCourseData = await Course.findByPk(req.params.id);
+//     const courses = dbCourseData.map((course) => course.get({ plain: true }));
+//     res.render('courses', {
+//       courses,
+//       // loggedIn: req.session.loggedIn,
+//     });
+//   } catch (err) {
+//     console.log(err);
+//     res.status(500).json(err);
+//   }
+// });
 
-    const courses = dbCourseData.get({ plain: true });
+// // GET one course
+// router.get('/courses/:id', async (req, res) => {
+//   try {
+//     const dbCourseData = await Course.findByPk(req.params.id, {
+//       include: [
+//         {
+//           model: Course,
+//           attributes: ['id', 'title', 'description', 'ages', 'location', 'url'],
+//         },
+//       ],
+//     });
 
-    res.render('courses', { course, loggedIn: req.session.loggedIn });
-  } catch (err) {
-    console.log(err);
-    res.status(500).json(err);
-  }
-});
+//     const course = dbCourseData.get({ plain: true });
+//     res.render('courses', { course });
+//   } catch (err) {
+//     console.log(err);
+//     res.status(500).json(err);
+//   }
+// });
 
 router.get('/login', (req, res) => {
   if (req.session.loggedIn) {
@@ -51,6 +59,15 @@ router.get('/login', (req, res) => {
   }
 
   res.render('login');
+});
+
+router.get('/featured', (req, res) => {
+  res.render('presentCourses');
+});
+
+// render homepage
+router.get('/', async (req, res) => {
+  res.render('homepage');
 });
 
 module.exports = router;
