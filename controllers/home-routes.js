@@ -15,43 +15,54 @@ router.get('/', async (req, res) => {
 router.get('/login',(req, res) =>{
     res.render('login');
 })
-    router.post((req, res) => {
-        var username = req.body.username,
-            password = req.body.password;
+ //
+//Loggin user post request
+router.post('/login', (req, res) => {
+    // expects {email: 'lernantino@gmail.com', password: 'password1234'}
+    User.findOne({
+      where: {
+        email: req.body.email
+      }
+    }).then(dbUserData => {
+      if (!dbUserData) {
+        res.status(400).json({ message: 'No user with that email address!' });
+        return;
+      }
+  
+      const validPassword = dbUserData.checkPassword(req.body.password);
+  
+      if (!validPassword) {
+        res.status(400).json({ message: 'Incorrect password!' });
+        return;
+      }
+  
+      req.session.save(() => {
+        req.session.user_id = dbUserData.id;
+        req.session.username = dbUserData.username;
+        req.session.loggedIn = true;
     
-        User.findOne({ where: { username: username } }).then(function (user) {
-            if (!user) {
-                res.redirect('/login');
-                res.render('login');
-            } else if (!user.validPassword(password)) {
-                res.redirect('/signup');
-                res.render('signup');
-            } else {
-                req.session.user = user.dataValues;
-                res.redirect('/');
-            }
-        });
+        res.json({ user: dbUserData, message: 'You are now logged in!' });
+      });
     });
-
-   
+  });
 
 // route for user signup
 router.get('/signup',(req, res) => {
-        //res.sendFile(__dirname + '/public/signup.html');
-        res.render('signup', hbsContent);
-    })
-    .post((req, res) => {
+        res.render('signup');
+    });
+    router.post((req, res) => {
         User.create({
             username: req.body.username,
-            //email: req.body.email,
+            email: req.body.email,
             password: req.body.password
         })
         .then(user => {
             req.session.user = user.dataValues;
             res.redirect('/');
+
         })
         .catch(error => {
-            res.redirect('/signup');
+            res.redirect('/');
         });
     });
 
