@@ -37,3 +37,16 @@ app.use(routes);
 sequelize.sync({ force: true }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
+// sequelize.sync({ force: false }).then(() => {//
+//start server after DB Connection
+db.connect(err =>{
+    if(err)throw err;
+    console.log('Database Connected');
+ app.listen(PORT, () => console.log('Now listening'));
+});
+ // render about.handlebars
+// app.get('./view/about', (req, res) => {
+        
+//         res.render('main', {layout: 'about'});
+//     });
+       
