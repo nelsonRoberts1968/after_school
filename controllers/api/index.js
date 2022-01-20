@@ -1,11 +1,18 @@
+const express = require('express');
 const router = require('express').Router();
 
-const userRoutes = require('./user-routes');
+//create routes
+const categoryRoutes = require('./category-routes');
+const locationRoutes = require('./location-routes');
+const ageRoutes = require('./age-routes');
 const courseRoutes = require('./course-routes');
-const accountRoutes = require('./account-routes');
+// const courseTagRoutes = require('./courseTag-routes');
 
-router.use('/users', userRoutes);
+//use routes
+router.use('/categories', categoryRoutes);
 router.use('/courses', courseRoutes);
-router.use('/accounts', accountRoutes);
+router.use('/locations', locationRoutes);
+router.use('/ages', ageRoutes);
+// router.use('/search', courseTagRoutes);
 
 module.exports = router;

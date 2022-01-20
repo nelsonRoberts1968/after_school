@@ -1,53 +1,87 @@
   [  
     {
+        "id": "1",
         "city": "Carmichael"
     },
     {
+        "id": "2",
         "city": "Citrus Heights"
     },
     {
+        "id": "3",
         "city": "Davis"
     },
     {
+        "id": "4",
         "city": "El Dorado Hills"
     },
     {
+        "id": "5",
         "city": "Elk Grove"
     },
     {
+        "id": "6",
         "city": "Fair Oaks"
     },
     {
+        "id": "7",
         "city": "Folsom"
     },
     {
+        "id": "8",
         "city": "Galt"
     },
     {
+        "id": "9",
         "city": "Lincoln"
     },
     {
+        "id": "10",
         "city": "Lodi"
     },
     {
+        "id": "11",
         "city": "Natomas"
     },
     {
+        "id": "12",
         "city": "Rancho Cordova"
     },
     {
+        "id": "13",
         "city": "Rocklin"
     },
     {
+        "id": "14",
         "city": "Roseville"
     },
     {
+        "id": "15",
         "city": "Sacramento"
     },
     {
+        "id": "16",
         "city": "West Sacramento"
     },
     {
+        "id": "17",
         "city": "Woodland"
+    },
+    {
+        "id": "18",
+        "city": "Online"
+    },
+    {
+        "id": "19",
+        "city": "North Highlands"
+    }, 
+    {
+        "id": "20",
+        "city": "Antelope"
+    },
+    {
+        "id": "21",
+        "city": "Auburn"
     }
+
   ]

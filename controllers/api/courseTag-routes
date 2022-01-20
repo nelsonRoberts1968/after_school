@@ -1,0 +1,15 @@
+const router = require('express').Router();
+const sequelize = require('../../config/connection');
+const { Account, Age, Category, Course, CourseTag, Location, User} = require('../../models');
+
+//get/read
+
+//post/create
+
+//put/update
+
+//delete
+
+
+
+module.exports = router;

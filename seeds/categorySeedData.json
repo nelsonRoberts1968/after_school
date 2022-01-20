@@ -1,26 +1,38 @@
 [
     {
+        "id": "1",
         "name": "Arts"
     },
      {
+         "id": "2",
         "name": "Summer/Winter Camps"
     },
     {
+        "id": "3",
         "name": "Tutoring"
     },
     {
+        "id": "4",
         "name": "Sports"
     },
     {
+        "id": "5",
         "name": "Dance"
     },
     {
+        "id": "6",
         "name": "STEM"
     },
     {
+        "id": "7",
         "name": "Music"
     },
     {
+        "id": "8",
         "name": "Child Care"
+    },
+    {
+        "id": "9",
+        "name": "Event"
     }
 ]

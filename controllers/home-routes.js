@@ -1,32 +1,112 @@
 const router = require('express').Router();
-const { Account, Category, Course, Location, User } = require('../models');
+const sequelize = require('../config/connection');
+const {
+  Account,
+  Age,
+  Category,
+  Course,
+  CourseTag,
+  Location,
+  User,
+} = require('../models');
 
-//Import the custom middleware
-const withAuth = require('../utils/auth');
+//get all courses
+router.get('/', (req, res) => {
+  console.log('============');
+  Course.findAll({
+    attributes: [
+      'id',
+      'title',
+      'description',
+      'url',
+      'location_id',
+      'age_id',
+      'category_id',
+    ],
+    include: [
+      {
+        model: Location,
+        attributes: ['id', 'city'],
+      },
+      {
+        model: Age,
+        attributes: ['id', 'age'],
+      },
+      {
+        model: Category,
+        attributes: ['id', 'category_name'],
+      },
+    ],
+  })
+    .then((dbCourseData) => {
+      const courses = dbCourseData.map((course) => course.get({ plain: true }));
 
-//render about us
-router.get('./view/about', (req, res) => {
-  res.render('main', { layout: 'about' });
+      res.render('courses', {
+        courses,
+        loggedIn: req.session.loggedIn,
+      });
+    })
+    .catch((err) => {
+      console.log(err);
+      res.status(500).json(err);
+    });
 });
-router.get('/signup', (req, res) => {
-    res.render('signup');
-})
+
+// get single course
+router.get('/courses/:title', (req, res) => {
+  Course.findOne({
+    where: {
+      title: req.params.title,
+    },
+    attributes: [
+      'id',
+      'title',
+      'description',
+      'url',
+      'location_id',
+      'category_id',
+      'age_id',
+    ],
+    include: [
+      {
+        model: Location,
+        attributes: ['id', 'city'],
+      },
+      {
+        model: Category,
+        attributes: ['id', 'category'],
+      },
+      {
+        model: Age,
+        attributes: ['id', 'age'],
+      },
+    ],
+  })
+    .then((dbCourseData) => {
+      if (!dbCourseData) {
+        res.status(404).json({ message: 'No courses found by this name' });
+        return;
+      }
+
+      const course = dbCourseData.get({ plain: true });
+
+      res.render('courses', {
+        course,
+        loggedIn: req.session.loggedIn,
+      });
+    })
+    .catch((err) => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
+
 router.get('/login', (req, res) => {
   if (req.session.loggedIn) {
     res.redirect('/');
     return;
   }
-
   res.render('login');
-});
-
-router.get('/featured', (req, res) => {
-  res.render('presentCourses');
-});
-
-// render homepage
-router.get('/', async (req, res) => {
-  res.render('homepage');
 });
 
 module.exports = router;

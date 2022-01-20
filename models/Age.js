@@ -1,26 +1,28 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Location extends Model {}
+class Age extends Model {}
 
-Location.init(
+Age.init(
   {
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
+      autoIncrement: true,
     },
-    city: {
+    age: {
       type: DataTypes.STRING,
       allowNull: false,
     },
   },
   {
     sequelize,
+    timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'location',
+    modelName: 'age',
   }
 );
 
-module.exports = Location;
+module.exports = Age;
