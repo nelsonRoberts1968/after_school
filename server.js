@@ -66,3 +66,9 @@ db.connect(err =>{
     console.log('Database Connected');
  app.listen(PORT, () => console.log('Now listening'));
 });
+ // render about.handlebars
+// app.get('./view/about', (req, res) => {
+        
+//         res.render('main', {layout: 'about'});
+//     });
+       
