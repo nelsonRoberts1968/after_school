@@ -6,15 +6,15 @@
                     {{#each Course}}
                     <div class = "card">
                         <div class= "card-title">
-                        {{title}}
+                        {{Course.title}}
                         </div>
                         <div class = "card-content">
-                            {{description}}
-                            {{location}}
-                            {{ages}}
+                            {{Course.description}}
+                            {{Course.location}}
+                            {{Course.ages}}
                             <a href="{{url}}">View Website</a>
-                    {{/each}}
-                            </div>
+                        {{/each}}
+                        </div>
                     </div>
                 </div>
             </div>
