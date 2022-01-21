@@ -1,0 +1,10 @@
+[
+    {
+        "course_title": "Maggie's Class",
+        "age": "Infant/Toddler",
+        "url": "www.mclass.com",
+        "description": "First test class",
+        "location_id":"1,2,3",
+        "category_id":"1,2"
+    }
+]

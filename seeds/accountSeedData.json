@@ -1,0 +1,22 @@
+[
+    {
+        "firstName": "Maggie",
+        "lastName": "Finnegan",
+        "email": "maggie@test.com",
+        "location": "Sacramento",
+        "ages": "Infant/Toddler, Preschool, Elementary",
+        "category": "Sports, Summer/Winter Camps",
+        "username": "maggietest",
+        "password": "testing123"
+    },
+     {
+        "firstName": "Ricky",
+        "lastName": "Bobby",
+        "email": "rickybobby@test.com",
+        "location": "Elk Grove",
+        "ages": "Elementary",
+        "category": "Music",
+        "username": "rickybobby",
+        "password": "testing345"
+    }
+]
