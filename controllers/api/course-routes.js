@@ -5,21 +5,17 @@ const { Course, Age, Category, Location } = require('../../models');
 //test to see if I can get it to return the data in a handlebar template. If it doesn't work, revert to below
 router.get('/', async (req, res) => {
   Course.findAll({
-    // attributes: ['id', 'course_title', 'description', 'url'],
-    // include: [
-    //   {
-    //     model: Course,
-    //     attributes: ['id', 'course_title', 'description', 'url'],
-    //     include: {
-    //       model: Location,
-    //       attributes: ['location_id', 'city'],
-    //     },
-    //   },
-    // ],
+    attributes: ['id', 'course_title', 'description', 'url'],
+    include: [
+      {
+        model: Course,
+        attributes: ['id', 'course_title', 'description', 'url'],
+      },
+    ],
   })
     .then((dbCourseData) => {
       // pass a single course object into the homepage template
-      res.render('courses', dbCourseData[0].get({ plain: true }));
+      res.render('courses', dbCourseData.get({ plain: true }));
     })
     .catch((err) => {
       console.log(err);
