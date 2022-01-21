@@ -1,4 +1,3 @@
-const express = require('express');
 const router = require('express').Router();
 
 //create routes
@@ -12,7 +11,7 @@ const courseRoutes = require('./course-routes');
 router.use('/categories', categoryRoutes);
 router.use('/courses', courseRoutes);
 router.use('/locations', locationRoutes);
-router.use('/ages', ageRoutes);
+// router.use('/ages', ageRoutes);
 // router.use('/search', courseTagRoutes);
 
 module.exports = router;

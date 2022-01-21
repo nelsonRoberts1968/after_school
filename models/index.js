@@ -70,4 +70,5 @@ CourseTag.belongsToMany(Course, {
   foreignKey: 'courseTag_id',
 });
 
-module.exports = { User, Course, Account, Category, Location, Age, CourseTag };
+module.exports = { User, Course, Account, Category, Location, Age,CourseTag,
+};
