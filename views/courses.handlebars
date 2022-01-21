@@ -4,17 +4,15 @@
         <section class = "container">
             <div class="column col-9">
                 <div class="classes">
-                    {{#each Course}}
                     <div class = "card">
-                        <div class= "card-title">
+                        <h3 class= "card-title">
                         {{course_title}}
-                        </div>
+                        </h3>
                         <div class = "card-content">
                             {{description}}
                             {{location_id}}
                             {{age_id}}
                             <a href="{{url}}">View Website</a>
-                    {{/each}}
                             </div>
                     </div>
                 </div>
