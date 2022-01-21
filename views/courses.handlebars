@@ -1,0 +1,25 @@
+
+    <!--Add Striped Border-->
+        <br><h2 class="striped-border"></h2><br>
+        <section class = "container">
+            <div class="column col-9">
+                <div class="classes">
+                    {{#each Course}}
+                    <div class = "card">
+                        <div class= "card-title">
+                        {{course_title}}
+                        </div>
+                        <div class = "card-content">
+                            {{description}}
+                            {{location_id}}
+                            {{age_id}}
+                            <a href="{{url}}">View Website</a>
+                    {{/each}}
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
+    <!--Add Striped Border-->
+    <h2 class="striped-border"></h2>
