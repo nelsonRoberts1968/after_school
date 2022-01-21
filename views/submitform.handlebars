@@ -1,0 +1,176 @@
+<div class = 'center'>
+    <div class = "">
+        <hr>
+        <h2 class="center-align"> Submit An Event</h2>
+
+        <form class= "form-contaniner form-card" action="">
+             <div>
+                <input type="text" name="organizer" id="organizer" placeholder="Organizer Name" value="" />
+            </div>
+            <div>
+                <input type="email" name="email" id="email" placeholder="Email" value="" />
+            </div>
+        
+            <div>
+                <input type="text" name="event_name" id="event_name" placeholder="Event Name" value="" />
+            </div>
+
+        <div class="full-row">
+            <div class="half-row d-inline">
+                <input type="text" name="event_date" id="start_date" placeholder="Event Start Date" value="">
+            </div>
+            <div class="half-row d-inline">
+                <input type="text" name="event_end_date" id="end_date" placeholder="Event End Date" value="" />
+        </div>
+
+        <div class="full-row" id='displayed_time_div'>
+            <div class="half-row d-inline">
+                 <input type="text" name="event_start_time" id="event_start_time" placeholder="Event Start Time"
+                        value="">
+            </div>
+            <div class="half-row d-inline">
+                 <input type="text" name="event_end_time" id="event_end_time" placeholder="Event End Time"
+                        value="" />
+            </div>
+        </div>
+
+        <div class="full-row">
+            <textarea name='description' id="description" placeholder="Description"></textarea>
+        </div>
+
+        <div class="full-row">
+            <input type="text" name="venue" id="venue" placeholder="Venue" value="" />
+        </div>
+            
+        <div class="full-row">
+             <input type="text" name="address" id="address" placeholder="Address" value="" />
+        </div>
+        <div>
+            <select name="city" id="city" value="" placeholder="Select City">
+                <option disabled selected>Select City</option>
+                <option value="Carmichael">Carmichael</option>
+
+                <option value="Citrus Heights">Citrus Heights</option>
+
+                <option value="Davis">Davis</option>
+
+                <option value="EL Dorado Hills">EL Dorado Hills</option>
+
+                <option value="Elk Grove">Elk Grove</option>
+
+                <option value="Fair Oaks">Fair Oaks</option>
+
+                <option value="Folsom">Folsom</option>
+
+                <option value="Galt">Galt</option>
+
+                <option value="Lincoln">Lincoln</option>
+
+                <option value="Lodi">Lodi</option>
+
+                <option value="Natomas">Natomas</option>
+
+                <option value="Rancho Cordova">Rancho Cordova</option>
+
+                <option value="Rocklin">Rocklin</option>
+
+                <option value="Roseville">Roseville</option>
+
+                <option value="Sacramento">Sacramento</option>
+
+                <option value="West Sacramento">West Sacramento</option>
+
+                <option value="Woodland">Woodland</option>
+
+            </select>
+        </div>
+
+        <div class="full-row" style="">
+             <input type="text" name="state" id="state" placeholder="state" value="CA"/>
+        </div>
+
+        <div class="full-row">
+            <input type="text" name="zip" id="zip" placeholder="zip" value="" />
+        </div>
+
+        <div class="full-row">
+            <input type="text" name="website_name" id="website_name" placeholder="Website" value="" />
+         </div>
+
+         <div class="full-row">
+                <label class=" ">Categories</label>
+                <div class="row-full">
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_1" value="1">
+                        <label for="check_1"><span></span>ACTIVITIES</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_2" value="2">
+                        <label for="check_2"><span></span>ARTS</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_3" value="3">
+                        <label for="check_3"><span></span>DEALS AND DISCOUNTS</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_4" value="4">
+                        <label for="check_4"><span></span>FAMILY FUN</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_5" value="5">
+                        <label for="check_5"><span></span>FREE EVENTS</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_6" value="6">
+                        <label for="check_6"><span></span>FUN RUN</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_7" value="7">
+                        <label for="check_7"><span></span>HALLOWEEN</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_8" value="8">
+                        <label for="check_8"><span></span>HOLIDAY EVENTS</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_9" value="9">
+                        <label for="check_9"><span></span>HOMESCHOOL EVENTS</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_10" value="10">
+                        <label for="check_10"><span></span>ONLINE EVENTS</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_11" value="11">
+                        <label for="check_11"><span></span>OTHER</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_12" value="12">
+                        <label for="check_12"><span></span>SPECIAL NEEDS</label>
+                    </div>
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_13" value="13">
+                        <label for="check_13"><span></span>SPORTS</label>
+                    </div>
+                    
+                    <div class="check-list event-cat-list">
+                        <input type="checkbox" name="categories_name[]" class="checkCategory" id="check_14" value="14">
+                        <label for="check_14"><span></span>THINGS TO DO</label>
+                    </div>
+                </div>
+                <span id='cat_err' style='color:red;clear:both;display:none;padding-top:10px'>Atleaest one category
+                    requried<span>
+                        <!--</div>-->
+        </div>
+
+        <div class="full-row event-creat-btn">
+                <input type="submit" name="submit" value="Submit Event">
+
+        </div>
+
+
+    </formclass>
+
+    </div>
+
+</div>

@@ -174,30 +174,37 @@ label {
   font-size: 20px;
   color: #ffffff;
 }
-.formbutton{
-	background-color: #0d1450;
-	font-family: "Calibri", "Trebuchet MS", sans-serif;
-	font-size: 20px;
-	color: #ffffff;
-	margin-left: 250px;
-	margin-right: 250px;
-  }
+.formbutton {
+  background-color: #0d1450;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 250px;
+  margin-right: 250px;
+}
 #footer a {
   text-decoration: none;
   color: #0d1450;
 }
 
-.card-form-container{
-font-size: 18px;
-background-color:#0d1450 ;
-padding: 30px;
-direction: ltr;
-text-align: left;
-line-height: 40px;
+.card-form-container {
+  font-size: 18px;
+  background-color: #0d1450;
+  padding: 30px;
+  direction: ltr;
+  text-align: left;
+  line-height: 40px;
 }
-#emailHelp{
-	font-size: 15px;
+#emailHelp {
+  font-size: 15px;
 }
+.form-card {
+  border: 2px solid black;
+  background-image: url(../images/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 @media (min-width: 768px) and (max-width: 1096px) {
   .text_column {
     width: 100%;

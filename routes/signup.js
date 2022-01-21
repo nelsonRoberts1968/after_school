@@ -4,9 +4,7 @@ const {signup} = require('../controllers/auth')
 const db = require('../db/connection');
 
 // rendering signup page 
-router.get('/signup',(req, res) =>{
-    res.render('signup');
-});
+
 
 // Create a candidate
 router.post('/auth/signup', async ({ body }, res) => {

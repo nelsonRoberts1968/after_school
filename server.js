@@ -1,9 +1,10 @@
-
 const db = require('./db/connection');
 const path = require('path');
 const dotenv = require('dotenv');
 const express = require('express');
-const signup_route = require('./routes/signup');
+//const signup_route = require('./routes/signup');
+//const submitform_route = require('./routes/submitform');
+//const about_route = require ('./routes/about');
 const home_route = require('./routes/homePage');
 const auth_route = require('./routes/auth');
 const session = require('express-session');
@@ -43,8 +44,10 @@ const PORT = process.env.PORT || 3001;
 
 //use apiRoutes 
 app.use(home_route);
-//Signup route
-app.use(signup_route);
+//page routes
+// app.use(signup_route);
+// app.use(submitform_route);
+// app.use(about_route)
 //Authentication for all forms
 app.use(auth_route);
 
