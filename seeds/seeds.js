@@ -5,7 +5,7 @@ const accountSeedData = require('./accountSeedData.json');
 const categorySeedData = require('./categorySeedData.json');
 const locationSeedData = require('./locationSeedData.json');
 const courseSeedData = require('./courseSeedData.json');
-const userSeedData = require('./userSeedData.json');
+const seedUser = require('./userSeedData.json');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });

@@ -15,7 +15,6 @@ router.get('/', (req, res) => {
 
 
 router.post('/', (req, res) => {
-  // expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
   User.create({
     username: req.body.username,
     email: req.body.email,
@@ -35,10 +34,11 @@ router.post('/', (req, res) => {
     .catch(err => {
       res.redirect('/signup');
       //res.status(500).json(err);
-    });
+});
 });
 
 router.post('/login', (req, res) => {
+  // expects {email: 'lernantino@gmail.com', password: 'password1234'}
   User.findOne({
     where: {
       email: req.body.email
