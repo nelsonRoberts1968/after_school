@@ -4,48 +4,36 @@ const { Account, Category, Course, Location, User } = require('../models');
 //Import the custom middleware
 const withAuth = require('../utils/auth');
 
-//render about us
-router.get('./view/about', (req, res) => {
-  res.render('main', { layout: 'about' });
+
+// render homepage
+router.get('/', async (req, res) => {
+    res.render('homepage');
 });
 
-// //get all courses
-// router.get('/courses', async (req, res) => {
+//get all courses
+router.get('/courses', async (req, res) => {
+    try {
+        const dbCourseData = await Course.findAll({ include: [{ all: true, nested: true }]});
+        dbCourseData.map((Course) => {
+            Course.get({ plain: true})
+        });
+        res.render('courses');
+    } catch (err) {
+        console.log(err);
+        res.status(500).json(err);
+    }
+});
+
+
+// GET course by name
+// Use the custom middleware before allowing the user to access the course
+// router.get('/courses/:title', withAuth, async (req, res) => {
 //   try {
-//     const dbCourseData = await Course.findAll({
-//       include: [
-//         {
-//           model: Course,
-//           attributes: ['title', 'description', 'ages', 'location', 'url'],
-//         },
-//       ],
-//     });
+//     const dbCourseData = await Course.findByPk(req.params.id);
 
-//     const courses = dbCourseData.map((course) => course.get({ plain: true }));
-//     res.render('courses', {
-//       courses,
-//       // loggedIn: req.session.loggedIn,
-//     });
-//   } catch (err) {
-//     console.log(err);
-//     res.status(500).json(err);
-//   }
-// });
+//     const courses = dbCourseData.get({ plain: true });
 
-// // GET one course
-// router.get('/courses/:id', async (req, res) => {
-//   try {
-//     const dbCourseData = await Course.findByPk(req.params.id, {
-//       include: [
-//         {
-//           model: Course,
-//           attributes: ['id', 'title', 'description', 'ages', 'location', 'url'],
-//         },
-//       ],
-//     });
-
-//     const course = dbCourseData.get({ plain: true });
-//     res.render('courses', { course });
+//     res.render('courses', { course, loggedIn: req.session.loggedIn });
 //   } catch (err) {
 //     console.log(err);
 //     res.status(500).json(err);
@@ -59,15 +47,6 @@ router.get('/login', (req, res) => {
   }
 
   res.render('login');
-});
-
-router.get('/featured', (req, res) => {
-  res.render('presentCourses');
-});
-
-// render homepage
-router.get('/', async (req, res) => {
-  res.render('homepage');
 });
 
 module.exports = router;
