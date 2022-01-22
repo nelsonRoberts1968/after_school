@@ -4,19 +4,19 @@ const { Account, Category, Course, Location } = require('../models');
 
 // render homepage
 router.get('/', async (req, res) => {
+  if(req.session.loggedIn){
     res.render('homepage');
-      // posts,
-      // loggedIn: req.session.loggedIn
+  }else{
+    res.render('login');
+  }
 });
-
 
 router.get('/login', (req, res) => {
   if (req.session.loggedIn) {
     res.redirect('/');
     return;
   }
-  res.render('signup');
-  //res.render('login');
+  res.render('login');
 });
 
 router.get('/signup',(req, res) => {
