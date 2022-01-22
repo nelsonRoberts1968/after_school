@@ -16,7 +16,10 @@ const PORT = process.env.PORT || 3001;
 
 const sess = {
   secret: 'Super secret secret',
+<<<<<<< HEAD
   cookie: {},
+=======
+>>>>>>> 55c3151 (added loging and signup routes and login.js)
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
