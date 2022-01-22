@@ -15,24 +15,24 @@ Model.init({
   lastName: {
     type: DataTypes.STRING,
   },
-  // email: {
-  //   type: DataTypes.STRING,
-  // },
-  // location: {
-  //     type: DataTypes.STRING,
-  // },
-  // ages: {
-  //     type: DataTypes.STRING,
-  // },
-  // category: {
-  //   type: DataTypes.STRING,
-  // },
-  // username: {
-  //     type: DataTypes.STRING,
-  // },
-  // password: {
-  //     type: DataTypes.STRING,
-  // }
+  email: {
+    type: DataTypes.STRING,
+  },
+  location: {
+      type: DataTypes.STRING,
+  },
+  ages: {
+      type: DataTypes.STRING,
+  },
+  category: {
+    type: DataTypes.STRING,
+  },
+  username: {
+      type: DataTypes.STRING,
+  },
+  password: {
+      type: DataTypes.STRING,
+  }
 },
   {
       sequelize,

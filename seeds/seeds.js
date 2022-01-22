@@ -21,6 +21,7 @@ await Account.bulkCreate(accountSeedData, {
     individualHooks: true,
     returning: true,
   });
+
   await Course.bulkCreate(courseSeedData, {
     individualHooks: true,
     returning: true,
