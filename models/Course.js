@@ -19,7 +19,7 @@ Model.init(
       type: DataTypes.STRING,
       validate: {
         isUrl: true,
-      }
+      },
     },
     description: {
       type: DataTypes.STRING,
@@ -28,22 +28,22 @@ Model.init(
       type: DataTypes.STRING,
       references: {
         model: 'location',
-        key: 'id'
-      }
+        key: 'id',
+      },
     },
     category_id: {
       type: DataTypes.STRING,
       references: {
         model: 'category',
-        key: 'id'
-      }
+        key: 'id',
+      },
     },
     age_id: {
       type: DataTypes.STRING,
       references: {
         model: 'age',
-        key: 'id'
-      }
+        key: 'id',
+      },
     },
   },
   {

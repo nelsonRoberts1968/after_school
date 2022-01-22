@@ -23,24 +23,24 @@ Model.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    // location: {
-    //   type: DataTypes.STRING,
-    // },
-    // ages: {
-    //   type: DataTypes.STRING,
-    // },
-    // category: {
-    //   type: DataTypes.STRING,
-    // },
-    // username: {
-    //   type: DataTypes.STRING,
-    // },
-    // password: {
-    //   type: DataTypes.STRING,
-    // },
-    // courseId: {
-    //   type: DataTypes.STRING,
-    // },
+    location: {
+      type: DataTypes.STRING,
+    },
+    ages: {
+      type: DataTypes.STRING,
+    },
+    category: {
+      type: DataTypes.STRING,
+    },
+    username: {
+      type: DataTypes.STRING,
+    },
+    password: {
+      type: DataTypes.STRING,
+    },
+    courseId: {
+      type: DataTypes.STRING,
+    },
   },
   {
     sequelize,

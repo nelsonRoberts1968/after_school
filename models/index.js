@@ -1,74 +1,28 @@
-//import models
 const Account = require('./Account');
 const Category = require('./Category');
 const Course = require('./Course');
 const Location = require('./Location');
 const User = require('./User');
 const Age = require('./Age');
-const CourseTag = require('./CourseTag');
 
-//create associations
-
-Course.belongsTo(Category, {
-  foreignKey: 'category_id',
-});
-
-Category.hasMany(Course, {
-  foreignKey: 'category_id',
-});
+// Account.hasMany(Course, {
+//     foreignKey: 'account_id',
+//     constraints: false
+// });
 
 Course.belongsToMany(Location, {
-  through: CourseTag,
-  foreignKey: 'course_id',
+  through: 'location_id',
+  constraints: false,
 });
 
-Location.belongsToMany(Course, {
-  through: CourseTag,
-  foreignKey: 'courseTag_id',
-});
-
-Age.belongsToMany(Course, {
-  through: CourseTag,
-  foreignKey: 'courseTag_id',
+Course.belongsToMany(Category, {
+  through: 'category_id',
+  constraints: false,
 });
 
 Course.belongsToMany(Age, {
-  through: CourseTag,
-  foreignKey: 'course_id',
+  through: 'age_id',
+  constraints: false,
 });
 
-Category.belongsToMany(Course, {
-  through: CourseTag,
-  foreignKey: 'courseTag_id',
-});
-Course.belongsToMany(Category, {
-  through: CourseTag,
-  foreignKey: 'course_id',
-});
-
-Location.belongsToMany(Course, {
-  through: CourseTag,
-  foreignKey: 'courseTag_id',
-});
-Course.belongsToMany(Location, {
-  through: CourseTag,
-  foreignKey: 'course_id',
-});
-
-Location.belongsToMany(Course, {
-  through: CourseTag,
-  foreignKey: 'courseTag_id',
-});
-
-CourseTag.belongsToMany(Course, {
-  through: CourseTag,
-  foreignKey: 'course_id',
-});
-
-CourseTag.belongsToMany(Course, {
-  through: CourseTag,
-  foreignKey: 'courseTag_id',
-});
-
-module.exports = { User, Course, Account, Category, Location, Age,CourseTag,
-};
+module.exports = { User, Course, Account, Category, Location };
