@@ -4,12 +4,12 @@
         <section class = "container">
             <div class="column col-9">
                 <div class="classes">
-                    <div class = "card">
+                    {{!-- <div class = "card"> --}}
                         <h3 class= "card-title">Course Title
-                        {{course_title}}
+                        {{Course.course_title}}
                         </h3>
                         <div class = "card-content">
-                            Description: {{description}}
+                            Description: {{Course.description}}
                             <br>
                             Locations: {{location_id}}
                             <br>
@@ -18,7 +18,7 @@
                             <a href="{{url}}">View Website</a>
                             </div>
                     </div>
-                </div>
+                {{!-- </div> --}}
             </div>
     </section>
     <br>
