@@ -1,3 +1,5 @@
+
+
 const router = require('express').Router();
 const { Account, Category, Course, Location, User, Age } = require('../models');
 
