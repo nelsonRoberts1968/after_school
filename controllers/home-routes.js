@@ -1,15 +1,9 @@
-const router = require('express').Router();
-<<<<<<< HEAD
-const { Account, Category, Course, Location, User, Age } = require('../models');
-
 
 //Import the custom middleware
 const withAuth = require('../utils/auth');
-
-=======
 const sequelize = require('../config/connection');
-const { Account, Category, Course, Location } = require('../models');
->>>>>>> 57d927f ( fixed loging and signup routes)
+const router = require('express').Router();
+const { Account, Category, Course, Location, User, Age } = require('../models');
 
 //render new event page
 //layout works
@@ -23,17 +17,16 @@ router.get('/login', (req, res) => {
     res.redirect('/');
     return;
   }
-  res.render('signup');
-  //res.render('login');
+  res.render('login');
 });
 
-<<<<<<< HEAD
+router.get('/signup',(req, res) => {
+  res.render('signup');
+});
+
 // render homepage
 router.get('/', async (req, res) => {
   res.render('homepage');
 });
 
 module.exports = router;
-=======
-module.exports = router;
->>>>>>> 57d927f ( fixed loging and signup routes)
