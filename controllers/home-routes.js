@@ -6,17 +6,10 @@ const { Account, Category, Course, Location } = require('../models');
 // render homepage
 router.get('/', async (req, res) => {
     res.render('homepage');
+      // posts,
+      // loggedIn: req.session.loggedIn
 });
 
-<<<<<<< HEAD
-
-router.get('/login', (req, res) => {
-  if (req.session.loggedIn) {
-    res.redirect('/');
-    return;
-  }
-  res.render('login');
-=======
 router.get('/login',(req, res) =>{
     res.render('login');
 })
@@ -83,7 +76,6 @@ router.get('/courses', async (req, res) => {
         console.log(err);
         res.status(500).json(err);
     }
->>>>>>> 55c3151 (added loging and signup routes and login.js)
 });
 
 router.get('/signup',(req, res) => {
