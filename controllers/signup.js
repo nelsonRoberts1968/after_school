@@ -9,11 +9,11 @@ router.get('/signup',(req, res) =>{
 
 // Create a candidate
 router.post('/auth/signup', async ({ body }, res) => {
-    console.log(body);
+  console.log(body);
     const response = await signup(body);
 // Signup complete then render page again.
    // res.render('homepage');
 });
 
-
  module.exports = router;
+

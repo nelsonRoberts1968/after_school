@@ -1,0 +1,18 @@
+[
+    {
+        "course_title": "Maggie's Class",
+        "url": "www.mclass.com",
+        "description": "First test class",
+        "location_id":[1,2,3],
+        "category_id":[1,2],
+        "age_id": 1
+    },
+    {
+        "course_title": "Maggie's Class",
+        "url": "www.mclass.com",
+        "description": "First test class",
+        "location_id":[1,2,3],
+        "category_id":[1,2],
+        "age_id": 2
+    }
+]

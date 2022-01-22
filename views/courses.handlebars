@@ -1,19 +1,21 @@
+
     <!--Add Striped Border-->
         <br><h2 class="striped-border"></h2><br>
         <section class = "container">
             <div class="column col-9">
                 <div class="classes">
-                    {{#each Course}}
                     <div class = "card">
-                        <div class= "card-title">
-                        {{title}}
-                        </div>
+                        <h3 class= "card-title">Course Title
+                        {{course_title}}
+                        </h3>
                         <div class = "card-content">
-                            {{description}}
-                            {{location}}
-                            {{ages}}
+                            Description: {{description}}
+                            <br>
+                            Locations: {{location_id}}
+                            <br>
+                            Ages: {{age_id}}
+                            <br>
                             <a href="{{url}}">View Website</a>
-                    {{/each}}
                             </div>
                     </div>
                 </div>
@@ -22,3 +24,4 @@
     <br>
     <!--Add Striped Border-->
     <h2 class="striped-border"></h2>
+   

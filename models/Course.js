@@ -3,35 +3,50 @@ const sequelize = require('../config/connection');
 
 class Course extends Model {}
 
-Model.init(
+Course.init(
   {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
     },
-    title: {
-      type: DataTypes.STRING
-    },
-    ages: {
-      type: DataTypes.STRING
+    course_title: {
+      type: DataTypes.STRING,
     },
     url: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      validate: {
+        isUrl: true,
+      },
     },
     description: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
     },
     location_id: {
-      type: DataTypes.STRING
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'location',
+        key: 'id',
+      },
     },
-      category_id: {
-        type: DataTypes.STRING
-    }
+    category_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'category',
+        key: 'id',
+      },
+    },
+    age_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'age',
+        key: 'id',
+      },
+    },
   },
   {
     sequelize,
-    timestamps: true,
+    timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: 'course',
