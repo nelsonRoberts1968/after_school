@@ -83,7 +83,13 @@ main {
 .col-3 {
   flex-grow: 1;
 }
+form > div {
+  margin-bottom: 2%;
+}
 
+form label {
+  display: block;
+}
 section {
   background-color: #0d1450;
   border: #040b49 solid 1px;
