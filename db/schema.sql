@@ -1,3 +1,4 @@
+USE clubhubdb;
 DROP TABLE IF  EXISTS signup;
 DROP TABLE IF EXISTS users;
 

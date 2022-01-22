@@ -195,9 +195,51 @@ direction: ltr;
 text-align: left;
 line-height: 40px;
 }
+.card-form-container p{
+  font-size: 20px;
+  background-color:#ffffff ;
+  padding: 30px;
+  direction: ltr;
+  text-align: left;
+  line-height: 40px;
+  }
 #emailHelp{
 	font-size: 15px;
 }
+.card{
+  background-color:#0d1450 ;
+  margin: 20px;
+  padding: 20px;
+  color:#ffffff;
+  direction: ltr;
+  text-align: left;
+}
+.card-title {
+  color:#0d1450;
+  background-color:#00ffff ;
+}
+.card-subtitle{
+ border:#00ffff solid 2px;
+ 
+}
+.loginform{
+  background-color:#0d1450 ;
+  margin-top:50px;
+  
+}
+/* #outPopUp {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  z-index: 15;
+  top: 0%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  background: #0d1450;
+  color:#ffffff;
+  padding: 20px;
+  line-height:10px;
+} */
 @media (min-width: 768px) and (max-width: 1096px) {
   .text_column {
     width: 100%;

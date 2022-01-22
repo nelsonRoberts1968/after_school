@@ -8,8 +8,8 @@ VALUES
   ('test','user','testuser@ucdbootcamp.com', '123 Somewhere','DAVIS','IN',95619,'usersix','password123');
 
 
-INSERT  INTO users( firstname,lastname,email,username,password)
-VALUES ('',)
+-- INSERT  INTO users( firstname,lastname,email,username,password)
+-- VALUES ('',)
   
   
 
