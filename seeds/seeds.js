@@ -5,7 +5,7 @@ const accountSeedData = require('./accountSeedData.json');
 const categorySeedData = require('./categorySeedData.json');
 const locationSeedData = require('./locationSeedData.json');
 const courseSeedData = require('./courseSeedData.json');
-const userSeedData = require('./userSeedData.json');
+const seedUser = require('./user-seeds.js');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -26,12 +26,10 @@ await Account.bulkCreate(accountSeedData, {
     individualHooks: true,
     returning: true,
   });
-  await User.bulkCreate(userSeedData, {
-    individualHooks: true,
-    returning: true,
-  });
-
+  await userSeed();
+    
   process.exit(0);
 };
 
 seedDatabase();
+
