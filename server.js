@@ -10,6 +10,13 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const app = express();
 
+//use apiRoutes 
+app.use(home_route);
+//Signup route
+app.use(signup_route);
+//Authentication for all forms
+app.use(auth_route);
+
 const hbs = exphbs.create({  });
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
@@ -42,22 +49,6 @@ app.use(session(sess));
 
 // const helpers = require('./utils/helpers');
 
-
-// use apiRoutes 
-// app.use(home_route);
-// //Signup route
-// app.use(signup_route);
-// //Authentication for all forms
-// app.use(auth_route);
-
-
-
-
-
-// app.use(express.json());
-// app.use(express.urlencoded({ extended: false }));
-// app.use(express.static(path.join(__dirname, 'public')));
-
 app.use(require('./controllers/'));
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
@@ -65,21 +56,8 @@ app.listen(PORT, () => {
   });
 // sequelize.sync({ force: false }).then(() => {//
 //start server after DB Connection
-// db.connect(err =>{
-//     if(err)throw err;
-//     console.log('Database Connected');
-//  app.listen(PORT, () => console.log('Now listening'));
-// });
-// // render about.handlebars
-// app.get('./view/about', (req, res) => {
-        
-//         res.render('main', {layout: 'about'});
-//     });
-        
-        
- // render about.handlebars
-// app.get('./view/about', (req, res) => {
-        
-//         res.render('main', {layout: 'about'});
-//     });
-       
+db.connect(err =>{
+    if(err)throw err;
+    console.log('Database Connected');
+ app.listen(PORT, () => console.log('Now listening'));
+});

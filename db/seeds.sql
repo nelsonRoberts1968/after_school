@@ -7,9 +7,5 @@ VALUES
   ('super','user','superuser@ucdbootcamp.com', '123 Somewhere','DAVIS','IN',95619,'userfive','superuser'),
   ('test','user','testuser@ucdbootcamp.com', '123 Somewhere','DAVIS','IN',95619,'usersix','password123');
 
-
--- INSERT  INTO users( firstname,lastname,email,username,password)
--- VALUES ('',)
-  
   
 
