@@ -10,12 +10,12 @@ var displayAllCourses = function (data) {
   data.forEach((event) => {
     let currentCourse = data[count];
 
-    //parse category data
-    let dataArr = JSON.parse(currentCourse.category);
-    for (let i = 0; i < dataArr.length; i++) {
-      const categories = dataArr[i];
-      console.log(categories);
-    }
+    // //parse category data
+    // let dataArr = JSON.parse(currentCourse.category);
+    // for (let i = 0; i < dataArr.length; i++) {
+    //   const categories = dataArr[i];
+    //   console.log(categories);
+    // }
     //create dynamic elements
     let courseDiv = document.createElement('div');
     let title = document.createElement('h4');
