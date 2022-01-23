@@ -19,7 +19,6 @@ router.get('/courses', (req, res) => {
 });
 
 //render new event page
-//layout works
 router.get('/submit', async (req, res) => {
   res.render('newEvent');
 });
