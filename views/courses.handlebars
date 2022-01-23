@@ -2,26 +2,78 @@
     <!--Add Striped Border-->
         <br><h2 class="striped-border"></h2><br>
         <section class = "container">
-            <div class="column col-9">
-                <div class="classes">
-                    <div class = "card">
-                        <h3 class= "card-title">Course Title
-                        {{course_title}}
-                        </h3>
-                        <div class = "card-content">
-                            Description: {{description}}
-                            <br>
-                            Locations: {{location_id}}
-                            <br>
-                            Ages: {{age_id}}
-                            <br>
-                            <a href="{{url}}">View Website</a>
-                            </div>
-                    </div>
+            <div class="row">
+             <div class="col-3 card">
+                 <div class="card">
+                <label for="location">City:</label>
+                <div class="form-group form-text">
+                Select all that apply:
+                <br>
+                <div class="outlined">
+                <input type="checkbox" class="checkbox-options" value="0">Carmichael</option>
+                    <input type="checkbox" class= value="1">Citrus Heights</option>
+                    <input type="checkbox" class= value="2">Davis</option>
+                    <input type="checkbox" class= value="3">El Dorado Hills</option>
+                    <input type="checkbox" class= value="4">Elk Grove</option>
+                    <input type="checkbox" class= value="5">Fair Oaks</option>
+                    <input type="checkbox" class= value="6">Folsom</option>
+                    <input type="checkbox" class= value="7">Galt</option>
+                    <input type="checkbox" class= value="8">Lincoln</option>
+                    <input type="checkbox" class= value="9">Lodi</option>
+                    <input type="checkbox" class= value="10">Natomas</option>
+                    <input type="checkbox" class= value="11">Rancho Cordova</option>
+                    <input type="checkbox" class= value="12">Rocklin</option>
+                    <input type="checkbox" class= value="13">Roseville</option>
+                    <input type="checkbox" class= value="14">Sacramento</option>
+                    <input type="checkbox" class= value="15">West Sacramento</option>
+                    <input type="checkbox" class= value="16">Woodland</option>
+                    <input type="checkbox" class= value="17">Other</option>
+                  </input>
+                  </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="category" >Category</label>
+                  <div class="form-group form-text">
+                  Select all that apply:
+                  <br>
+                  <div class="outlined">
+                <input type="checkbox" class="checkbox-options" value="0">Arts</option>
+                    <input type="checkbox" class="checkbox-options" value="1">Summer/Winter Camps</option>
+                    <input type="checkbox" class="checkbox-options" value="2">Tutoring</option>
+                    <input type="checkbox" class="checkbox-options" value="3">Sports</option>
+                    <input type="checkbox" class="checkbox-options" value="4">Dance</option>
+                    <input type="checkbox" class="checkbox-options" value="5">STEM</option>
+                    <input type="checkbox" class="checkbox-options" value="6">Music</option>
+                    <input type="checkbox" class="checkbox-options" value="7">Child Care</option>
+                    <input type="checkbox" class="checkbox-options" value="8">Other</option>
+                    <input type="checkbox" class="checkbox-options" value="9">Event</option>
+                  </input>
+                </div>
+                </div>
+              </div>
+              <div class="form-group">
+                  <label for="age">Ages:</label>
+                  <div class="form-group form-text">
+                  Select all that apply:
+                 <div class="outlined">
+                    <input type="checkbox" class="checkbox-options" value="0">Infant/Toddler</option>
+                    <input type="checkbox" class="checkbox-options" value="1">Preschool</option>
+                    <input type="checkbox" class="checkbox-options" value="2">Elementary School</option>
+                    <input type="checkbox" class="checkbox-options" value="3">Middle School</option>
+                    <input type="checkbox" class="checkbox-options" value="4">High School</option>
+                  </input>
+                 </div>
                 </div>
             </div>
-    </section>
+            <button class='btn btn-primary btn-lg' type="submit" value="Submit" id="filter-courses">Search</button>
+    </div>
+
+    <div class="col-9">
+        <div id="courseDiv"></div>
+    </div>
+</section>
     <br>
     <!--Add Striped Border-->
     <h2 class="striped-border"></h2>
-   
+    {{!-- <script src="../public/js/courses.js"></script> --}}

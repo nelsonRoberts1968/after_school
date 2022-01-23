@@ -70,6 +70,7 @@ main {
   width: 60%;
   height: 60%;
 }
+<<<<<<< HEAD
 /* #title{
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 30px;
@@ -77,6 +78,9 @@ main {
   color: #000;;
   float:right;
 }  */
+=======
+
+>>>>>>> main
 #navbar {
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
@@ -156,10 +160,33 @@ label {
   padding-top: 10px;
 }
 .button {
+<<<<<<< HEAD
   background-color: #0D1450;
+=======
+  background-color: #0d1450;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+.form-button {
+  background-color: #0d1450;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 250px;
+  margin-right: 250px;
+>>>>>>> main
   font-family: "Calibri", "Trebuchet MS", sans-serif;
   font-size: 20px;
   color: #FFFFFF;
+}
+.formbutton {
+  background-color: #0d1450;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 .formbutton{
   background-color: #0D1450;
@@ -173,7 +200,12 @@ label {
   text-decoration: none;
   color: #0D1450;
 }
+<<<<<<< HEAD
 .card-form-container{
+=======
+
+.card-form-container {
+>>>>>>> main
 font-size: 18px;
 background-color:#0d1450 ;
 padding: 30px;
@@ -188,7 +220,28 @@ line-height: 40px;
   direction: ltr;
   text-align: left;
   line-height: 40px;
+<<<<<<< HEAD
   }
+=======
+}
+.about-us {
+  border: 13px solid #0d1450;
+  background-image: url(../images/logo-old.jpg);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  /* background-position: left; */
+  margin: 40px 200px 40px 200px;
+  color: black;
+  font-weight: bolder;
+}
+.about-p {
+  margin: 40px 40px 40px 40px;
+}
+#emailHelp {
+  font-size: 15px;
+}
+  
+>>>>>>> main
 #emailHelp{
   font-size: 15px;
 }
@@ -206,10 +259,12 @@ line-height: 40px;
 }
 .card-subtitle{
  border:#00ffff solid 2px;
+ 
 }
 .loginform{
   background-color:#0d1450 ;
   margin-top:50px;
+  
 }
 /* #outPopUp {
   position: absolute;
@@ -220,6 +275,7 @@ line-height: 40px;
   left: 50%;
   margin: -50px 0 0 -50px;
   background: #0D1450;
+  background: #0d1450;
   color:#ffffff;
   padding: 20px;
   line-height:10px;
@@ -275,6 +331,28 @@ line-height: 40px;
   padding-left: 10px;
   padding-right: 10px;
  
+}
+
+/* Maggie's styling updates - please do not remove */
+
+.outlined {
+  border: #9e9fa1 0.5px solid;
+  margin: 10px;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+.form-container{
+	background: #fff;
+	border-radius: 20px;
+	width: 600px;
+	box-shadow: 0px 0px 0px 0px;
+	margin :auto;
+	padding: 10px;
+}
+
+label{
+	justify-content: flex-end;
+
 }
 
 @media (min-width: 768px) and (max-width: 1096px) {
@@ -360,3 +438,6 @@ line-height: 40px;
     }
   }
 }
+
+
+

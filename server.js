@@ -1,3 +1,4 @@
+
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -46,4 +47,3 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
-

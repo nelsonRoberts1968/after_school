@@ -6,6 +6,7 @@ const userRoutes = require('./user-routes');
 router.use('/courses', courseRoutes);
 router.use('/accounts', accountRoutes);
 router.use('/users',userRoutes);
+// router.use('/accounts', accountRoutes);
 
 module.exports = router;
 
