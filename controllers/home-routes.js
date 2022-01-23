@@ -8,7 +8,11 @@ const { Account, Category, Course, Location, User, Age } = require('../models');
 //render new event page
 // render homepage
 router.get('/', async (req, res) => {
-  res.render('homepage');
+  if(req.session.loggedIn){
+    res.render('homepage');
+  }else{
+    res.render('signup');
+  }
 });
 //layout works
 router.get('/submit', async (req, res) => {
@@ -27,6 +31,5 @@ router.get('/login', (req, res) => {
 router.get('/signup',(req, res) => {
   res.render('signup');
 });
-
 
 module.exports = router;

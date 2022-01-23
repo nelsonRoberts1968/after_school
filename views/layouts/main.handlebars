@@ -18,7 +18,7 @@
 
     <div id="Top">
         <div id="navbar"><a href="about.html">&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;</a> |<a href="/login">&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;</a>|<a href="contact.html">&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;</a>
-          <button id="logout" class="btn-no-style">logout</button>
+          <button id="logout-button" class="btn-no-style">logout</button>
         </div>
 
         {{!-- Search Form --}}
@@ -73,9 +73,6 @@
         </div>
       </footer>
     </div>
-
-    {{#if loggedIn}}
-    <script src="/javascript/logout.js"></script>
-    {{/if}}
   </body>
+    <script src="/javascript/logout.js"></script>
 </html>

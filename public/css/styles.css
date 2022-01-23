@@ -1,17 +1,16 @@
 @charset "UTF-8";
 body {
   font-family: source-sans-pro;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 50px;
   margin-left: 0px;
   font-style: normal;
 }
-
 .column {
-  border: #ffffff solid 1px;
-  background-color: #57b99e;
+  border: #FFFFFF solid 1px;
+  background-color: #57B99E;
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 #048080fa, 0 6px 20px 0 #048080fa;
   width: 250px;
@@ -21,7 +20,7 @@ body {
 }
 .column:hover {
   opacity: 0.6;
-  background-color: #040b49;
+  background-color: #040B49;
 }
 .col-2 {
   flex-grow: 1;
@@ -30,15 +29,15 @@ body {
   flex-grow: 1;
 }
 section {
-  background-color: #0d1450;
-  border: #040b49 solid 1px;
+  background-color: #0D1450;
+  border: #040B49 solid 1px;
   /* border-radius: 25px; */
 }
 main {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   font-size: 20px;
-  color: #0d1450;
+  color: #0D1450;
   text-align: center;
 }
 /* main:hover {
@@ -49,7 +48,7 @@ main {
   text-align: center;
 } */
 .striped-border {
-  border: 1px solid #0d1450;
+  border: 1px solid #0D1450;
   width: 80%;
   margin-top: 5px;
   margin-left: auto;
@@ -71,11 +70,18 @@ main {
   width: 60%;
   height: 60%;
 }
-
-#navbar {
+/* #title{
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+    text-align: left;
+  color: #000;;
+  float:right;
+}  */
+#navbar {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
   font-size: 20px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   color: #048080fa;
   float: left;
   height: 45px;
@@ -85,21 +91,20 @@ main {
   padding-top: 15px;
   text-decoration: none;
 }
-
 #navbar a {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   font-size: 20px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   color: #048080fa;
   text-decoration: none;
 }
 #navbar a:hover {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   font-size: 20px;
-  background-color: #57b99e;
-  color: #0d1450;
+  background-color: #57B99E;
+  color: #0D1450;
   text-decoration: none;
 }
 #Top {
@@ -108,15 +113,15 @@ main {
   margin-bottom: 10px;
   height: 70px;
   font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
-  background-color: #0d1450;
-  border: #040b49 solid 1px;
+  background-color: #0D1450;
+  border: #040B49 solid 1px;
   padding: 30px;
 }
 footer {
   margin: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   height: 20px;
   text-align: center;
@@ -139,13 +144,11 @@ img {
   margin: auto;
   padding: 10px;
 }
-
 label {
   justify-content: flex-end;
 }
-
 .form {
-  background-color: #fcfdfd;
+  background-color: #FCFDFD;
   float: right;
   height: 50px;
   padding-right: 10px;
@@ -153,35 +156,23 @@ label {
   padding-top: 10px;
 }
 .button {
-  background-color: #0d1450;
-  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  color: #ffffff;
-}
-.form-button {
-  background-color: #0d1450;
-  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  color: #ffffff;
-  margin-left: 250px;
-  margin-right: 250px;
+  background-color: #0D1450;
   font-family: "Calibri", "Trebuchet MS", sans-serif;
   font-size: 20px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .formbutton{
-	background-color: #0d1450;
-	font-family: "Calibri", "Trebuchet MS", sans-serif;
-	font-size: 20px;
-	color: #ffffff;
-	margin-left: 250px;
-	margin-right: 250px;
+  background-color: #0D1450;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: 250px;
+  margin-right: 250px;
   }
 #footer a {
   text-decoration: none;
-  color: #0d1450;
+  color: #0D1450;
 }
-
 .card-form-container{
 font-size: 18px;
 background-color:#0d1450 ;
@@ -190,9 +181,102 @@ direction: ltr;
 text-align: left;
 line-height: 40px;
 }
+.card-form-container p{
+  font-size: 20px;
+  background-color:#ffffff ;
+  padding: 30px;
+  direction: ltr;
+  text-align: left;
+  line-height: 40px;
+  }
 #emailHelp{
-	font-size: 15px;
+  font-size: 15px;
 }
+.card{
+  background-color:#0d1450 ;
+  margin: 20px;
+  padding: 20px;
+  color:#ffffff;
+  direction: ltr;
+  text-align: left;
+}
+.card-title {
+  color:#0d1450;
+  background-color:#00ffff ;
+}
+.card-subtitle{
+ border:#00ffff solid 2px;
+}
+.loginform{
+  background-color:#0d1450 ;
+  margin-top:50px;
+}
+/* #outPopUp {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  z-index: 15;
+  top: 0%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  background: #0D1450;
+  color:#ffffff;
+  padding: 20px;
+  line-height:10px;
+} */
+
+/*Login and signup form design*/
+
+.form-container {
+  background: #fff;
+  display:flex;
+  flex-direction: column;
+  padding: 0 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+}
+.form-button{
+  border-radius: 20px;
+  border:1px solid #0D1450;
+  background:#040B49;
+  color:#fff;
+  font-size: 14px;
+  font-weight:bold;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: tranform 80ms ease-in;
+  width:300px;
+
+}
+.form-button:active{
+  transform: scale(0.95);
+}
+.form-container input{
+  background: #eee;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding:5px;
+  width:350px;
+  border-color: gray;
+
+}
+.card-form-container a{
+  font-size: 18px;
+  font-weight:bold;
+  margin-top: 20px;
+}
+#logout-button{
+  background:#040B49;
+  color:white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+
 @media (min-width: 768px) and (max-width: 1096px) {
   .text_column {
     width: 100%;
@@ -210,42 +294,38 @@ line-height: 40px;
     font-size: 12px;
   }
 }
-
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
   body {
     font-size: 14px;
   }
 }
-
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   body {
     font-size: 16px;
   }
 }
-
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   body {
     font-size: 16px;
   }
 }
-
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   body {
     font-size: 16px;
   }
 }
-
-/* 	iPad 3 */
+/**********
+  iPad 3
+  **********/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   body {
     font-size: 16px;
   }
 }
-/* main */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   body {
     font-size: 16px;
@@ -257,40 +337,26 @@ line-height: 40px;
     font-size: 16px;
   }
 }
-
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
   body {
     font-size: 16px;
   }
 }
-
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   body {
     font-size: 14px;
   }
-
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     body {
       font-size: 14px;
     }
   }
-
   /* iPhone 5 ----------- */
   @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
     body {
       font-size: 14px;
     }
   }
-}
-
-
-/* Maggie's styling updates - please do not remove */
-
-.outlined {
-  border: #9e9fa1 0.5px solid;
-  margin: 10px;
-  padding: 5px;
-  justify-content: space-evenly;
 }
