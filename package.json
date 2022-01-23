@@ -20,6 +20,7 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
     "connect-session-sequelize": "^7.1.2",
     "cookie-parser": "^1.4.6",
     "dotenv": "^14.2.0",
@@ -36,4 +37,5 @@
     "session": "^0.1.0"
   },
   "keywords": []
-}
+  }
+
