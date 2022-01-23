@@ -1,5 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
+<<<<<<< HEAD
 const bcrypt = require('bcrypt');
+=======
+const bcrypt = require('bcrypt')
+>>>>>>> Nedabranch
 const sequelize = require('../config/connection');
 
 class User extends Model {
@@ -41,7 +45,11 @@ User.init(
       async beforeCreate(newUserData) {
         newUserData.password = await bcrypt.hash(newUserData.password, 10);
         return newUserData;
+<<<<<<< HEAD
       },
+=======
+      }
+>>>>>>> Nedabranch
     },
     sequelize,
     timestamps: false,

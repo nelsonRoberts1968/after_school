@@ -1,4 +1,5 @@
 const Sequelize = require('sequelize');
+<<<<<<< HEAD
 require('dotenv').config();
 
 let sequelize;
@@ -21,5 +22,18 @@ if (process.env.JAWSDB_URL) {
     }
   );
 };
+=======
+
+require('dotenv').config();
+
+// create connection to our db
+const sequelize = process.env.JAWSDB_URL
+  ? new Sequelize(process.env.JAWSDB_URL)
+  : new Sequelize('clubhubdb', 'root', 'Magjo09iY7&r', {
+      host: 'localhost',
+      dialect: 'mysql',
+      port: 3306
+    });
+>>>>>>> Nedabranch
 
 module.exports = sequelize;

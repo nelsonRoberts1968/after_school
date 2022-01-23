@@ -1,3 +1,8 @@
+<div class="card-form-container">
+  <form class="form-container" action="" method="POST">
+    <div>
+      <label for="email-login">email:</label>
+      <input type="text" id="email-login" />
 {{!-- <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,36 +13,18 @@
     <title>Kids and Youth Online Courses</title>
   </head>
 
-  <body>
-    <div class="wrapper">
-      <header>
-        <div> NAME OF OUR PROJECT</div>
-        <div id="navbar"> About Us | Login | Vendors | Contact Us </div>
-        <div id="logo"><img src="./images/logo.jpg" alt="logo" title="LOGO" />
-        </div>
-        <h1 class="title">KIDS AND YOUTH ONLINE CLASSES</h1>
-      </header>
-
-      <main>
-        {{{body}}}
-      </main>
-      <!--footer-->
-      <footer class="footer">
-        <div>
-          <p style="text-align: center;">
-            <a href="index.html">HOME</a>
-            |
-            <a href="about.html">ABOUT</a>|
-            <a
-              href="https://github.com/nelsonRoberts1968/after_school"
-            >SOURCE</a>
-          </p>
-          <p style="text-align: center; font-size:14px">&copy; 2022 Kids and
-            Youth Online Courses</p>
-        </div>
-      </footer>
+      <div>
+        <label for="password-login">password:</label>
+        <input type="password" id="password-login" />
+      </div>
+      <div>
+        <button type="submit" class="formbutton">login</button>
+      </div>
     </div>
+  </form>
+</div>
 
+<script src="/javascript/login.js"></script>
     {{#if loggedIn}}
       <script src="/javascript/logout.js"></script>
     {{/if}}

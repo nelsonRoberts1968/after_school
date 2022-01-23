@@ -3,9 +3,12 @@ const { Account, Category, Course, Location, User } = require('../models');
 
 const apiRoutes = require('./api');
 const homeRoutes = require('./home-routes');
+const signup = require('./signup');
 
 router.use('/', homeRoutes);
 router.use('/api', apiRoutes);
+router.use('/signup' , signup);
+
 
 
 

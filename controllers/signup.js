@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../db/connection');
+const db = require('../config/connection');
 
 // rendering signup page 
-router.get('/signup',(req, res) =>{
+router.get('/',(req, res) =>{
     res.render('signup');
 });
 
