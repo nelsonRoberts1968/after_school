@@ -5,8 +5,11 @@ const sequelize = require('../config/connection');
 const router = require('express').Router();
 const { Account, Category, Course, Location, User, Age } = require('../models');
 
+router.get('/courses', (req, res) => {
+  res.render('courses');
+});
+
 //render new event page
-//layout works
 router.get('/submit', async (req, res) => {
   res.render('newEvent');
 });

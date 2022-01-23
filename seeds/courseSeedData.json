@@ -1,19 +1,1098 @@
 [
-    {
-        "course_title": "Maggie's Class",
-        "url": "www.mclass.com",
-        "description": "First test class",
-        "location_id":[1,2,3],
-        "category_id":[1,2],
-        "age_id": 1
-    },
-    {
-        "course_title": "Maggie's Class",
-        "url": "www.mclass.com",
-        "description": "First test class",
-        "location_id":[1,2,3],
-        "category_id":[1,2],
-        "age_id": 2
-
-    }
+  {
+    "title": "Academy Learning",
+    "category": ["Tutoring", "STEM", "Summer/Winter Camp"],
+    "location": ["Sacramento", "Roseville", "Natomas", "Folsom"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://academy-learning.com/?utm_source=Sacramento4Kids",
+    "description": "Academy Learning is a complete K-12 learning center offering Tutoring, STEM classes, and HomeLearners, Junior Academy, and College-Bound programs. Also offering Summer Camps for Academics and STEAM. Book your Science-Themed Birthday Party!"
+  },
+  {
+    "title": "Amazing Athletes of Northern Sacramento",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Antelope", "Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle"],
+    "url": "http://amazingathletes.com/northernsacramento/?utm_source=Sacramento4Kids",
+    "description": "Physical Education and Sports classes for all ages and development. We offer Virtual and in-person classes at a location convenient to you throughout the Sacramento area."
+  },
+  {
+    "title": "Becker Music Studio",
+    "category": ["Music"],
+    "location": ["Fair Oaks", "Carmichael"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://beckerpiano.com/",
+    "description": "Becker Music Studio, Inc. which provides piano lessons to students in the greater Sacramento County area including Fair Oaks and Carmichael. I hope you will find our website informative as you gather information about piano lessons for your child or yourself."
+  },
+  {
+    "title": "Bill Trainor Music",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://billtrainormusic.com/",
+    "description": "Bill Trainor Music offers adults and children individual lessons for violin, fiddle, and ukulele. There are also ongoing classes available for intermediate ukulele. Please browse through the site for detailed information about Bill, lessons, Bill's teaching methods and how to contact Bill for more information!"
+  },
+  {
+    "title": "David Abramson",
+    "category": ["Music"],
+    "location": ["Davis"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://guitarlessonsindavis.com/",
+    "description": "I also teach music to kids and adults with developmental disabilities and learning disabilities.\n\nLEARN MORE"
+  },
+  {
+    "title": "Gymboree Play and Music",
+    "category": ["Music"],
+    "location": ["Citrus Heights"],
+    "age": ["Infant/Toddler", "Preschool"],
+    "url": "http://gymboreeclasses.com/en",
+    "description": "Gymboree Play & Music has been fostering creativity and confidence in children ages 0-5 for over 30 years. Today there are over 550 locations in 30 countries, making us the global leader in early childhood development programs."
+  },
+  {
+    "title": "Help Me Grow Yolo County",
+    "category": ["Arts", "Dance", "Music"],
+    "location": ["Woodland"],
+    "age": ["Infant/Toddler", "Preschool"],
+    "url": "http://helpmegrowyolo.org/",
+    "description": "We provide free developmental playgroups led by licensed therapists -We provide basic needs assistance -developmental Screenings"
+  },
+  {
+    "title": "A Wonderful World of Music",
+    "category": ["Music"],
+    "location": ["Citrus Heights"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "http://lafittemusiccenter.com/?utm_source=Sacramento4Kids",
+    "description": "As a parent we realize you have a choice between several different music schools. All studios are not the same. We constantly renovate and improve our facilities and provide ongoing training to our staff to ensure we are always providing our students and parents with the best experience possible."
+  },
+  {
+    "title": "A Little Ones Happy Place",
+    "category": ["Child Care"],
+    "location": ["Lincoln"],
+    "age": ["Preschool"],
+    "url": "http://littleoneshappyplace.com/",
+    "description": "I have a unique combination of a loving home atmosphere combined with a happy preschool learning place in a comfortable and fun setting specially blended to provide children with the most warm, nurturing, safe, & caring environment."
+  },
+  {
+    "title": "Music Together 916 Valley",
+    "category": ["Music", "Summer/Winter Camp"],
+    "location": ["Elk Grove"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary"],
+    "url": "http://musictogether916valley.com/",
+    "description": "From babyhood through the early elementary years, Music Together nurtures each child�s natural musicality in a playful, musically rich learning environment. Our research-based music classes are designed to be non-formal and non-performance oriented, so your child can learn at his or her own pace, in a way that�s developmentally appropriate."
+  },
+  {
+    "title": "PianoMouse's Musical Circus",
+    "category": ["Music"],
+    "location": ["Online", "Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle"],
+    "url": "http://pianomouse.com/",
+    "description": "Pianomouse�s Musical Circus teaches children beginning musical concepts. The curriculum includes 4 Lesson Books, 4 Activity Books, and 4 Interactive Audio CDs."
+  },
+  {
+    "title": "Rock Inc.",
+    "category": ["Music"],
+    "location": ["Citrus Heights"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://rockincmusic.com/",
+    "description": "We focus our teaching abilities with our more than capable staff teaching Audio Production, Guitar, Bass, Vocals, and Piano. As well as having a fully functional studio perfect for tracking, mixing, and mastering anything from Hip-Hop and R&B artists to live band tracking."
+  },
+  {
+    "title": "Sacramento Preparatory Music Academy",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://sacprepmusic.com/",
+    "description": "Sac Prep Music Academy offers a unique community-based music education program in Sacramento.\n\nLEARN MORE"
+  },
+  {
+    "title": "Sacramento Music Academy",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://sacramentomusicacademy.com/",
+    "description": "From your first lessons this innovative system teaches you to play a huge variety of music including classical, blues, jazz, and contemporary while incorporating composing, improvising, arranging, and playing accompaniment."
+  },
+  {
+    "title": "Spanish Immersion Program",
+    "category": ["Arts", "Tutoring", "Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary"],
+    "url": "http://thespanishimmersionclasses.com/?utm_source=Sacramento4Kids",
+    "description": "Our structured program helps to build a sense of security where children feel comfortable to learn Spanish. Within this structure there is also flexibility to ensure we meet the needs of all the children and their different styles of learning and levels of confidence."
+  },
+  {
+    "title": "Thomson Family Music",
+    "category": ["Music"],
+    "location": ["Roseville"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://thomsonfamilymusic.com/",
+    "description": "We offer family-based piano lessons for children who are at least 5 years of age with some reading skills. Lessons are 30 minutes and are structured so that parents are actively included in the lessons. Siblings of appropriate age can also be included so that the lessons are family-inclusive."
+  },
+  {
+    "title": "The Music Store",
+    "category": ["Music"],
+    "location": ["Rocklin"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.acdcguitar.com/",
+    "description": "The Music Store is a full line family owned music store. We cater to the beginning and intermediate students of ALL ages."
+  },
+  {
+    "title": "The Professional Voice",
+    "category": ["Music"],
+    "location": ["Rocklin"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.acdcguitar.com/",
+    "description": "The Professional Voice (TPV) is Sacramento�s most sought after voice studio for people who demand results. Using the same method used by over 130 Grammy� winners, American Idol winners, the cast of Glee, and the Sing-Off, TPV promotes effortless singing using the natural voice, which is the safest method available."
+  },
+  {
+    "title": "Studio Music Lessons & Sales",
+    "category": ["Music"],
+    "location": ["Rocklin"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.acdcguitar.com/",
+    "description": "Rock and Roll is my life and my love. I have looked for something that is more fun... I haven't found it. An electric guitar does things it shouldn't do and gets away with it.\n\nLEARN MORE"
+  },
+  {
+    "title": "A New Beginning Preschool",
+    "category": ["Child Care"],
+    "location": ["Fair Oaks"],
+    "age": ["Infant/Toddler", "Preschool"],
+    "url": "http://www.anewbeginningpreschool.com/",
+    "description": "A New Beginning Preschool Learning Center offers a variety of learning programs for young children ages 2-6. Our purpose is to encourage, guide, facilitate and nurture your child's developmental stages through the first years of their life."
+  },
+  {
+    "title": "A Tree of Life Early Care and Education",
+    "category": ["Child Care"],
+    "location": ["Sacramento"],
+    "age": ["Infant/Toddler", "Preschool"],
+    "url": "http://www.atreeoflifeece.com/",
+    "description": "A Tree of Life is a RIE and Waldorf-inspired, early care and natural play program located in North Natomas at the beautiful private residence of Provider/Director Rachelle Davis-Ford."
+  },
+  {
+    "title": "Club Z Tutoring",
+    "category": ["Tutoring"],
+    "location": ["Elk Grove"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.clubzsacramento.com/?utm_source=Sacramento4Kids",
+    "description": "Since 2001, Club Z! Tutoring has provided in-home tutoring to over 30,000 students in the Sacramento and Elk Grove area helping them achieve 2 grades of improvement. We have great tutors with background checks and experience that re passionate about education. Our services are individualized to every students� needs�we reach them at their level."
+  },
+  {
+    "title": "Creative Arts & Music Center",
+    "category": ["Music"],
+    "location": ["Granite Bay"],
+    "age": ["Preschool", "Elementary", "Middle"],
+    "url": "http://www.creativeartsandmusiccenter.org/",
+    "description": "Perhaps the Art Center's greatest feature is its ability to become whatever its occupants need it to be: mornings, a charming spot for dreamy preschoolers; late afternoon, older kids arrive for a restorative end to their busy school day--a peaceful art class, a piano or flute lesson."
+  },
+  {
+    "title": "Cordova Recreation & Park District",
+    "category": ["Music", "Dance", "Summer/Winter Camp"],
+    "location": ["Rancho Cordova"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.crpd.com/",
+    "description": "Proudly meeting the park and recreation needs of Mather, Rosemont, Larchmont, Gold River, Anatolia and the City of Rancho Cordova residents."
+  },
+  {
+    "title": "Family Taekwondo Plus",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Citrus Heights"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.famtkdplus.com/?utm_source=Sacramento4Kids",
+    "description": "Family Taekwondo Plus is the premier self defense learning center in Citrus Heights! We are a family owned and operated Martial Arts school. We offer a variety of classes for all age groups, as well as many other programs and services designed to help our clients and community."
+  },
+  {
+    "title": "Folsom High School Music Boosters",
+    "category": ["Music"],
+    "location": ["Folsom"],
+    "age": ["High School"],
+    "url": "http://www.folsommusic.org/",
+    "description": "Our mission is promoting excellence through music education, and is realized through the efforts and talents of our dedicated volunteers and community."
+  },
+  {
+    "title": "Folsom Piano Academy",
+    "category": ["Music"],
+    "location": ["Folsom"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.folsompianoacademy.com/",
+    "description": "With the advent of group lessons, hundreds of students have been able to experience the joy of learning how to play the piano at the academy. By using a digital piano lab with headphones, students receive individualized instruction in a group setting and develop confidence in playing for others."
+  },
+  {
+    "title": "Free Flow Academy",
+    "category": ["Music", "Sports", "Summer/Winter Camp"],
+    "location": ["Rocklin"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.freeflowacademy.com/",
+    "description": "We are a literal Hybrid Arts training center centered on the flowing disciplines of Parkour, Freerunning, Tumbling, Martial Arts, Aerial Arts, Acting, Music, and more."
+  },
+  {
+    "title": "Golden Sound Music School",
+    "category": ["Music"],
+    "location": ["West Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.goldensoundmusic.com/",
+    "description": "At our school we teach the violin, viola, guitar, and piano. We also offer classes in conducting, voice, music theory, solfeggio, and musical ear development."
+  },
+  {
+    "title": "Imagine Music Instruction",
+    "category": ["Music"],
+    "location": ["Roseville"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.imaginemusicinstruction.com/",
+    "description": "Imagine Music Instruction offers professional musical instruction for all ages in a fun, exciting, family friendly environment. With two beautiful studios in Roseville, IMI offers lessons in Guitar, Piano, Voice, Bass, Violin, Brass, Woodwinds, Ukulele, and more from the best instructors in the area."
+  },
+  {
+    "title": "JacksonVoice Davis",
+    "category": ["Music"],
+    "location": ["Davis"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.jacksonvoice.com/",
+    "description": "From 6 to 60, singing lessons are great for any age! Lessons are specially designed for each singers personality, ability and age group"
+  },
+  {
+    "title": "Pacific Piano Academy",
+    "category": ["Music"],
+    "location": ["Sacramento", "Carmichael", "Fair Oaks", "Roseville", "Elk Grove", "Granite Bay", "North Highlands", "Citrus Heights"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.jacobveligan.com/",
+    "description": "I have been teaching piano for 7 years. I love working with kids of all ages. Teaching music is my profession, business, and passion!\n\nLEARN MORE"
+  },
+  {
+    "title": "Malko Performing Arts Academy",
+    "category": ["Arts", "Dance"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.malkodance.com/?utm_source=Sacramento4Kids",
+    "description": "Malko Performing Arts Academy is Sacramento�s Leading Kids-Youth Ballroom, Latin, Dance Sport and Dance Theater Academy."
+  },
+  {
+    "title": "Musical Mayhem Productions",
+    "category": ["Music", "Summer/Winter Camp"],
+    "location": ["Elk Grove", "Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.mmpkids.com/?utm_source=Sacramento4Kids",
+    "description": "Musical Mayhem Productions is a 501(c)(3) tax exempt nonprofit in Elk Grove, CA that specializes in quality theater education for children and special needs adults through rehearsal and workshop classes. The educational classes enrich participants by expanding creativity and enhancing confidence while conveying the importance of Theater Arts to the community through educational, fun, and entertaining performances."
+  },
+  {
+    "title": "Move! Studio",
+    "category": ["Arts", "Dance", "Sports"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.movestudio.net/",
+    "description": "Move! is a cultural center, fitness facility, and capoeira academy in Sacramento, California. This 3300 sq/ft facility includes tumbling mats, free weights, wood dance floor, mirrors, over 50 brazilian percussion instruments, sound system, an unique and inspiring atmosphere, and more. Move! is home to the group �gua de Beber, and is Sacramento's only capoeira school. Classes at Move! are fun, active, and can be taken by anyone."
+  },
+  {
+    "title": "Mr. D's Music School",
+    "category": ["Music"],
+    "location": ["Folsom"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.mrdsmusicschool.com/",
+    "description": "Mr. D�s Music School is the best music school in Folsom, CA. Our music classes are delivered by professional instructors. Call (916) 467-7400 to know more about music lessons!"
+  },
+  {
+    "title": "Muntean School of Music",
+    "category": ["Music"],
+    "location": ["Roseville"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.munteanschool.com/",
+    "description": "Muntean School of Music offers outstanding music instruction and programs to students of all ages, interests, and skill levels at two campuses in the Sacramento area. Come explore our year round classes and programs in classical music, jazz, rock, musical theatre, folk and so much more!"
+  },
+  {
+    "title": "Music Bloom School of Music",
+    "category": ["Music"],
+    "location": ["Fair Oaks"],
+    "age": ["Preschool", "Elementary", "Middle"],
+    "url": "http://www.musicbloom.com/",
+    "description": "Music Bloom's guitar program for children is designed to teach children music they care about while instilling proper technique and musicality.The guitar student will receive instruction on music reading, beautiful tone production, proper guitar technique, ear training and chords."
+  },
+  {
+    "title": "Natomas Music Square",
+    "category": ["Music", "Summer/Winter Camp"],
+    "location": ["Natomas"],
+    "age": [],
+    "url": "http://www.natomasmusicsquare.com/",
+    "description": "Natomas Music Square opened in 2011 and has been providing Sacramento with music lessons for children and adults of all ages. When Cindy began NMS, it started as a humble in-home lesson service and has grown into a fully staffed, independent music school, achieving its success by following one key principle: Music is an amazing art form that speaks to people."
+  },
+  {
+    "title": "North Highlands Recreation and Park District",
+    "category": ["Summer/Winter Camp", "STEM", "Arts", "Sports"],
+    "location": ["North Highlands"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.nhrpd.org/?utm_source=Sacramento4Kids",
+    "description": "We offer programs and activities for families and individuals of all ages! Camps, sports, games, activities, classes, free community events, and much more!"
+  },
+  {
+    "title": "Northern California School of the Arts",
+    "category": ["Arts", "Music", "Dance", "Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.norcalsota.org/?utm_source=Sacramento4Kids",
+    "description": "Northern California School of the Arts offers introductory and professional actor training, personal growth and leadership development programs, classes, and camps (in-person and virtual) for all students of all ages that are based on a holistic approach using social-emotional learning and culturally responsive strategies that empower students from diverse communities to discover and grow their voice, confidence and create a positive mindset towards themselves and their communities."
+  },
+  {
+    "title": "Natomas Piano Studio",
+    "category": ["Music"],
+    "location": ["Natomas"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.pianolessonsstudy.com/",
+    "description": "His students are regularly chosen to participate at the Classical Arts Festival held in Folsom, CA at the Harris Center for Arts. Accepting pianists of all level from beginners to advanced pianists"
+  },
+  {
+    "title": "Rocklin Guitar Lessons",
+    "category": ["Music"],
+    "location": ["Rocklin"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.rocklinguitarlessons.com/",
+    "description": "I�ve provided Rocklin-area students with extensive private teaching services in a number of different fields. I take pride in teaching people who are eager to expand their minds, talents, and skills, and bring a depth of professional expertise to those who strive to excel."
+  },
+  {
+    "title": "Piano Quest",
+    "category": ["Music"],
+    "location": ["Rocklin"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.rocklinpianolessons.com/",
+    "description": "My goal has always been to provide high quality instruction, giving students a solid foundation in performance, theory and music history. Having taught piano for over 25 years, my teaching methods have evolved to help me reach that goal."
+  },
+  {
+    "title": "Sacramento Performing Arts Company",
+    "category": ["Music"],
+    "location": ["West Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.sacperformingarts.com/",
+    "description": "Sacramento Performing Arts Company is a vocal training and performance company focused on educating and inspiring children, teens, and adults through positive experiences in the performing arts"
+  },
+  {
+    "title": "Sacramento Childrens Chorus",
+    "category": ["Music", "Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle"],
+    "url": "http://www.sacramentochildrenschorus.org/",
+    "description": "Enriching the lives of Sacramento youth through progressive music education, vocal performance, social and service opportunities. Offering summer camp July 16-20 for 2nd to 6th grade and spring break camp all ages in spring 2019.\n\nLEARN MORE"
+  },
+  {
+    "title": "Young Talents Music School",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.sacramentomusic.org/",
+    "description": "Our goal is to help each student develop their full potential through the study of varied repertoire, balanced technique, music theory, and sight reading.We wish to devote most of our energy to the creative act of sharing music with people."
+  },
+  {
+    "title": "Skip's Music",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.skipsmusic.com/",
+    "description": "At Skip's, we know that the best way to get the most enjoyment from your instrument is to know how to use it. We offer a selection of lessons and performance programs to make your musical experience enjoyable."
+  },
+  {
+    "title": "Amped Dance Studios",
+    "category": ["Dance"],
+    "location": ["Citrus Heights"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://ampeddancestudios.com/?utm_source=Sacramento4Kids",
+    "description": "Work with choreographer, Ana Maria Perales. She has worked for Disney Pictures, Six Flags Enterainment, Millennium Dance Complex in Los Angeles, Sacramento Theatre Company and Sac Ballet."
+  },
+  {
+    "title": "ASL Resolutions",
+    "category": ["Tutoring"],
+    "location": ["Roseville", "Online"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://aslresolutions.com/?utm_source=Sacramento4Kids",
+    "description": "FUN American Sign Language for kids! Language Delay Support for Deaf Kids!\n\nLEARN MORE"
+  },
+  {
+    "title": "Camino Music Studio",
+    "category": ["Arts", "Music"],
+    "location": ["Natomas"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://caminomusicstudio.weebly.com/?utm_source=Sacramento4Kids",
+    "description": "The Camino Music Studio offers weekly private and group music lessons in piano, guitar, bass, violin, voice, saxophone, clarinet, ukulele, and more!"
+  },
+  {
+    "title": "Bach to Rock - Folsom",
+    "category": ["Music", "Summer/Winter Camp"],
+    "location": ["Folsom"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://folsom.b2rmusic.com/",
+    "description": "You�re never too young to play and create music. Introducing toddlers and very young children to music, rhythm and motion supports cognitive development, learning and motor skills. B2R Early Childhood classes combine structured musical games and activities to promote learning and musical growth and expose children to the fundamentals of music."
+  },
+  {
+    "title": "Grade Power Learning",
+    "category": ["Tutoring", "Summer/Winter Camp"],
+    "location": ["Elk Grove"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://gradepowerlearning.com/locations/elk-grove-tutoring/?utm_source=Sacramento4Kids",
+    "description": "We teach the importance of time management, problem-solving and homework techniques. We promote active thinking and teach children to discover their own learning process. Students are encouraged to take chances, make leaps, and try and try again."
+  },
+  {
+    "title": "Music Institute of Roseville",
+    "category": ["Music"],
+    "location": ["Roseville"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://musicinstitute.com/",
+    "description": "If you are looking for quality instrumental and vocal lessons, you have come to the right place. The Music Institute of Roseville was created in order to fulfill musical needs of students of all ages, levels and stylistic preferences in a relaxed, yet disciplined environment. We have been successfully serving the Placer and Sacramento Counties, as well as the immediate surrounding areas for 22 years!"
+  },
+  {
+    "title": "Music Lab",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://musiclab.co/east-sacramento/",
+    "description": "Our teaching rooms are designed to provide the best teaching and learning environment. Teaching is the most important part but if you can combine great teaching with a clean, acoustically sound, inspiring, motivating, and comfortable room you get even better results."
+  },
+  {
+    "title": "My Tutoring Partners",
+    "category": ["Tutoring"],
+    "location": ["Auburn"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://mytutoringpartners.com/?utm_source=Sacramento4Kids",
+    "description": "My Tutoring Partners is a best-in-class tutoring company that helps students of all ages learn any subject. Our tutors are obsessed with giving their students the best learning experience, creating meaningful change in classroom performance, and cultivating the confidence they need for success."
+  },
+  {
+    "title": "Back to Rock",
+    "category": ["Music", "Summer/Winter Camp"],
+    "location": ["Rocklin", "Roseville", "Lincoln", "Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://rocklin.b2rmusic.com/",
+    "description": "Bach to Rock in Rocklin, CA provides music lessons for students of all ages and skill levels living in Rocklin, Roseville & Lincoln. Instruments we teach include guitar, piano, drums, voice, violin, trumpet & more!"
+  },
+  {
+    "title": "School of Rock - Elk Grove",
+    "category": ["Music"],
+    "location": ["Elk Grove"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://schoolofrockelkgrove.com/?utm_source=Sacramento4Kids",
+    "description": "Our Performance Program introduces teamwork and collaboration into music instruction by grouping them with other kids to put on real rock shows at real music venues."
+  },
+  {
+    "title": "The Drum Lab",
+    "category": ["Music"],
+    "location": ["Rocklin"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://thedrumlab.net/",
+    "description": "THE DRUM LAB is Sacramento�s first and only school of drumming. The Drum Lab opened it�s doors in May of 2005 with one main goal, to set a new standard for drumming education in Sacramento. The Drum Lab offers a comprehensive, hands-on education in contemporary drumming techniques and styles."
+  },
+  {
+    "title": "3D Bear",
+    "category": ["STEM"],
+    "location": ["Online"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.3dbear.io/",
+    "description": "Our mission is to help educators create an environment in which students can learn life-skills that will make them successful in the 21st century � to elicit collaboration, improve multidisciplinary skills, develop a growth mindset and creative problem solving. We empower students to become active innovators and influencers who take initiative with confidence."
+  },
+  {
+    "title": "916 ink",
+    "category": ["Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.916ink.org/amplify",
+    "description": "Sign up for our Creative Writing Summer Camp on our website and see if you qualify for a free admission!"
+  },
+  {
+    "title": "Albedo Arts Community",
+    "category": ["Arts", "Music", "Dance", "Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.albedoartsacademy.com/",
+    "description": "Albedo Arts Community is a unique learning experience for children and adults of all ages with different interest. We offer classes in music, dance, gymnastics, Pilates, Zumba, Ballroom sports dance, Cardio fitness, social ballroom dance party, fine arts for all ages and skill level at affordable rates."
+  },
+  {
+    "title": "CLARA",
+    "category": ["Dance", "Music", "Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Middle", "High"],
+    "url": "https://www.claramidtown.org/arts-education/clara-performing-arts-summer-camp/",
+    "description": "Performing arts summer camp featuring dance, music, and theatre for ages 11-18. Interactive programming, energizing activities and 15 different kinds of performing arts over two weeks mean that CLARA Performing Arts Camp will engage your child�s imagination, boost their personal pride, and engage powerful bonds that will last a lifetime."
+  },
+  {
+    "title": "Code Ninjas",
+    "category": ["STEM", "Summer/Winter Camp"],
+    "location": ["Elk Grove", "Folsom", "Rocklin"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.codeninjas.com/locations/ca-rocklin/?utm_source=Sacramento4Kids",
+    "description": "Transform your child�s love for technology into an exciting learning adventure. Guided by their team of Code Senseis, Code Ninjas Summer Camps empower kids to gain valuable tech skills and make new friends."
+  },
+  {
+    "title": "Christian Youth Theater",
+    "category": ["Music"],
+    "location": ["Rocklin"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.cytsacramento.org/",
+    "description": "Christian Youth Theater (CYT) is an after-school theater arts training program for students ages 4 - 18. CYT is dedicated to developing character in children and adults through training in the arts and by producing wholesome family entertainment, all of which reflect Judeo-Christian values."
+  },
+  {
+    "title": "Whitehat Jr",
+    "category": ["STEM"],
+    "location": ["Online"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.dpbolvw.net/click-9274033-14337974",
+    "description": "Do you want your kid to create the world�s next big tech platform? Whitehat Jr's mission is to empower a whole generation to become creators versus consumers of technology.We teach fundamentals of coding--logic, structure, sequence and algorithmic thinking to enable kids to generate creative outcomes eg websites, animations and apps."
+  },
+  {
+    "title": "Fancy Feet Dance Academy & Parties",
+    "category": ["Dance"],
+    "location": ["Sacramento"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.fancyfeetdance.net/?utm_source=Sacramento4Kids",
+    "description": "Nestled in the heart of East Sacramento, only minutes away from the campus of CSU Sacramento, our studio is easily accessed from all parts of the greater Sacramento region."
+  },
+  {
+    "title": "Galaxy Dance Arts",
+    "category": ["Dance", "Summer/Winter Camp"],
+    "location": ["Elk Grove"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.galaxydancearts.com/?utm_source=Sacramento4Kids",
+    "description": "Galaxy Dance Arts offers a variety of dance styles to students of all ages and abilities. We focus on proper placement, technique and, especially, joy in movement -- from our pre-dance students up to our pre-professionals."
+  },
+  {
+    "title": "Suzuki Piano Academy",
+    "category": ["Music"],
+    "location": ["El Dorado Hills"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.ilovesuzukipiano.com/",
+    "description": "The Suzuki Piano Academy offers private piano lessons, music theory classes and homeschool enrichment courses. We have been in business for over 22 years teaching private piano lessons in the Suzuki method, music theory/performance classes in homeschool communities and afterschool programs."
+  },
+  {
+    "title": "Jan Ken Po Gakko",
+    "category": ["Arts", "Music"],
+    "location": ["Elk Grove"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.jankenpogakko.com/",
+    "description": "Jan Ken Po Gakko is a parent cooperative program that educates children and their families about Japanese-American culture through exploration in language, music, arts and cooking."
+  },
+  {
+    "title": "Adventure Academy",
+    "category": ["STEM", "Arts"],
+    "location": ["Online"],
+    "age": ["Elementary", "Middle"],
+    "url": "https://www.jdoqocy.com/click-9274033-13697924",
+    "description": "Elementary and middle school age students can immerse themselves in thousands of engaging learning activities in a fun and safe multiplayer virtual world. Through hundreds of hours of gameplay, learners build critical knowledge of essential curriculum topics like language arts, math, social studies, science, and more."
+  },
+  {
+    "title": "Kaleidoscope Holistic Learning Center",
+    "category": ["Tutoring", "STEM"],
+    "location": ["Rancho Cordova"],
+    "age": ["Preschool", "Elementary", "Middle"],
+    "url": "https://www.kaleidoschool.org/?utm_source=Sacramento4Kids",
+    "description": "Kaleidoscope Holistic Learning Center is a nonprofit organization dedicated to helping the community. We provide engaging enrichment and intervention courses for PreK � 8th grade students. We approach learning with a variety of innovative methods, such as brain-based learning, to empower students in their education and life.  We offer a choice of meaningful courses including core academics, the arts, wellness, and life skills."
+  },
+  {
+    "title": "Kline Music",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.klinemusic.com/",
+    "description": "Serving the beginner to the serious musician since 1963! Music Store in Sacramento, California - Open 7 days a week!"
+  },
+  {
+    "title": "Play/Music Sacramento",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.playmusicsacramento.com/",
+    "description": "A unique and magical place for kids to play and learn to play music."
+  },
+  {
+    "title": "Precision Dance Center",
+    "category": ["Dance", "Summer/Winter Camp"],
+    "location": ["Roseville"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.precisiondancecenter.net/?utm_source=Sacramento4Kids",
+    "description": "Precision Dance Center teachers have a strong commitment to teaching excellence while also fostering a positive and encouraging learning environment. Offering many years of experience teaching dance, each staff member demonstrates passion and dedication to dance in their area of expertise."
+  },
+  {
+    "title": "River City Concert Band",
+    "category": ["Event"],
+    "location": ["Rancho Cordova"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.rcconcertband.org/",
+    "description": "The River City Concert Band, based in Rancho Cordova near Sacramento California, is a not for profit organization made up of approximately 70 volunteer musicians who donate their time and musical talents to present concerts with a broad audience appeal."
+  },
+  {
+    "title": "Roseville Piano Studio",
+    "category": ["Music"],
+    "location": ["Roseville"],
+    "age": ["Infant/Toddler", "Preschool"],
+    "url": "https://www.rosevillepianostudio.com/",
+    "description": "Roseville Piano Studio provides piano lessons using the phenomenal Simply Music� method! Also check out Simply Music Rhapsody; Music and Movement for infants -5 years. Come to your free intro session!"
+  },
+  {
+    "title": "Sacramento Youth Symphony",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.sacramentoyouthsymphony.org/",
+    "description": "At the Sacramento Youth Symphony our goal is to educate and advance the musical skills of youth, throughout the entire Sacramento Valley community, in ways that engage, challenge, and inspire them to reach their highest potential."
+  },
+  {
+    "title": "Tamraloo Music",
+    "category": ["Music"],
+    "location": ["Lincoln"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.tamraloomusic.com/",
+    "description": "Tamraloo Music strives to bring you top quality music lessons for all ages and stages."
+  },
+  {
+    "title": "The Boulder Field",
+    "category": ["Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.theboulderfield.com/?utm_source=Sacramento4Kids",
+    "description": "The Boulder Field (TBF) is Sacramento�s newest and most exciting rock climbing and fitness gym. Conveniently located at 8425 Belvedere Ave, Suite 100, between Power Inn and Florin Perkins, just south of I50, offers something for everyone."
+  },
+  {
+    "title": "Young Gates",
+    "category": ["STEM", "Tutoring", "Summer/Winter Camp"],
+    "location": ["Online"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.younggates.com/?utm_source=Sacramento4Kids",
+    "description": "YoungGates provides cutting-edge live online computer science classes for kids from ages 9 and 18 years. Ex: Scratch, Python, Java, Website, App, Data, Photoshop, Gaming, Animation, Math, Rubiks, and more"
+  },
+  {
+    "title": "ArtBeast Childrens Studio",
+    "category": ["Music", "Dance", "Arts", "Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary"],
+    "url": "http://www.artbeaststudio.com/",
+    "description": "ArtBeast is a drop in arts exploration space for children featuring an open studio, arts classes, and arts exploration rooms. Though all children are welcome to visit ArtBeast, special focus is given to creating an environment for children under 6.The open studio features tables, easels, and clay mounds where young artists can work. Surrounding shelves are stocked with paint, papers, objects from nature, recycled tidbits, glues, crayons, glitter, scissors, an array of brushes, and an even wider offering of objects from which to make art. Children develop confidence in expressing and messing as they create art pieces that convey their sense of the world. ArtBeast classes emphasize exploration over specialization."
+  },
+  {
+    "title": "Kindermusik",
+    "category": ["Music"],
+    "location": ["Sacramento"],
+    "age": ["Infant/Toddler", "Preschool"],
+    "url": "http://www.musicandmychild.com/",
+    "description": "Kids Music Classes Sacramento - Kindermusik is the world�s leading music and movement program for young children. Building on decades of research and experience. Our fun-filled and dynamic programs are developed by recognized leaders in the field of early childhood development."
+  },
+  {
+    "title": "Lafitte Music Center",
+    "category": ["Music"],
+    "location": ["Citrus Heights"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://lafittemusiccenter.com/?utm_source=Sacramento4Kids",
+    "description": "At Lafitte Music Center we share our passion for music by providing classes and concerts for music lovers of all ages. We offer personal and group lessons to ages 4 and up in piano, strings, drums, guitar and voice. All skill levels are welcome."
+  },
+  {
+    "title": "IR Academy of Soccer Development (Soccer)",
+    "category": ["Sports"],
+    "location": ["Elk Grove"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.iracademysoccer.com/",
+    "description": "This clinic will run every Sunday starting March 21, except Easter Sunday, running for 6 weeks until May 2. Important - You cannot be currently registered with another NorCal club and attend this clinic per NorCal policy. This clinic is for unregistered competitive players, recreation players, new players, and current IR Academy players looking for extra training. Learn More"
+  },
+  {
+    "title": "Consumnes CSD",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Elk Grove"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.yourcsd.com/357/Sports/?utm_source=4kids",
+    "description": "Playing a sport helps young people build friendships, develop skills like teamwork, kindness, and respect, succeed in school, and grow into healthy adults. That�s why Cosumnes CSD Parks and Recreation offers affordable, FUN options for sports and play that help children thrive.Cosumnes CSD Parks and Recreation strives for an inclusive and connected park, recreation, and trail system that delivers opportunities for health and wellness, and social interaction, and delight to the Elk Grove community. It oversees 100 parks, a 9-hole golf course, 18 miles of off-street trails, 7 community and recreation centers, and 3 aquatics facilities as well as recreational and educational activities and special events for all ages."
+  },
+  {
+    "title": "Sunshine Swim and Fitness Center",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Elk Grove"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.sunshineswimcenter.com/?utm_source=Sacramento4Kids",
+    "description": "Sunshine Swim and Fitness Center is Elk Grove's premier swim and fitness center. We are excited to offer a variety of dynamic programs for all ages and abilities. Our swim programs are dedicated to small class sizes, personalized instruction and a knowledgeable staff."
+  },
+  {
+    "title": "Sacramento Kings Jr. Kings",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.nba.com/kings/?utm_source=Sacramento4Kids",
+    "description": "Jr. Kings is about much more than just basketball! All kids who participate in a clinic, camp, or league, will have access to the best coaches in the region, the most individualized and effective instruction, and all the excitement that only an NBA program can offer.Jr. Kings is committed to developing kids ages 6 to 14 as whole players by creating a fun and supportive environment while working with all skill levels to cultivate respect, sportsmanship, and work ethic in addition to mastering the fundamentals of the game. Camps and clinics are offered monthly, sign up today at Kings.com/JrKings"
+  },
+  {
+    "title": "Ethos Soccer Club",
+    "category": ["Sports"],
+    "location": ["El Dorado Hills"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.ethossoccer.org/",
+    "description": "Founded in 2011, the Ethos Soccer Club is an organization that provides competitive soccer leagues to the residents of the local community. In addition to competitive teams, the club also offers soccer camps and clinics throughout the year."
+  },
+  {
+    "title": "Sacramento Kings Kids Club",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.nba.com/kings/?utm_source=Sacramento4Kids",
+    "description": "Do you have a young Kings fan in your life? Help them show their Kings pride by signing them up to be a member of the Sacramento Kings Kids Club, the official youth fan club of the Sacramento Kings!Membership is free and includes benefits like the chance to win prizes at Kings games, discounts on tickets and gear, and opportunities to participate in Kids Club activities. Or upgrade to an All-Star Membership for just $25 to get the Kids Club kit filled with Kings gifts, a FREE kids ticket, and invitations to exclusive events! Learn more and register today at Kings.com/KidsClub"
+  },
+  {
+    "title": "El Dorado Hills Sports Club (Martial Arts, Swimming)",
+    "category": ["Sports"],
+    "location": ["El Dorado Hills"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.sparetimeclubs.com/club/welcome.php?site=EDH",
+    "description": "The family-friendly atmosphere at El Dorado Hills Sports Club truly defines who we are and why we're \"the best part of your day!\" No other local area club can boast the number, variety, and quality of kid-based events, activities and instructional programs that we offer."
+  },
+  {
+    "title": "Roseville Aquatics Complex",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Roseville"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.roseville.ca.us/parks/parks_n_facilities/facilities/pools/roseville_aquatics_complex.asp",
+    "description": "Programs available at this facility include the Woodcreek Seawolves Competitive Swim Team, family night swimming, recreational swimming, a variety of morning, afternoon and evening swim lessons,"
+  },
+  {
+    "title": "Elevate Gymnastics Academy",
+    "category": ["Sports"],
+    "location": ["Elk Grove"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.elevategymnasticsacademy.com/",
+    "description": "Gymnastics is one of the most fundamental and exciting of all physical activities. Basic gymnastic skills develop attributes that are perfect stepping stones for other sports, activities and personal development. Through proper and professional instruction, children show progress in many key developmental areas."
+  },
+  {
+    "title": "Fair Oaks Cougar Rugby Club",
+    "category": ["Sports"],
+    "location": ["Fair Oaks"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.cougarrugbyclub.com/",
+    "description": "Cougar Rugby Club currently boast a complete family of teams including: High School Boys, High School Girls, Middle School(Coed), U-12 (Coed), U-10 (Coed) and U-8 (Coed)."
+  },
+  {
+    "title": "First Tee of Greater Sacramento",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.thefirstteesacramento.org/",
+    "description": "Today, The First Tee of Greater Sacramento is one of The First Tee�s largest chapters and a leader in the field of programs for teens and the disabled. The First Tee of Greater Sacramento has three site courses and eleven affiliate courses in the Greater Sacramento area. They have created a true farm system that supports children as young as 3 until they reach college."
+  },
+  {
+    "title": "Hi 5 Taekwondo",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["El Dorado Hills"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.hi5taekwondo.com/",
+    "description": "No other martial art is more scientific or systemized than Taekwondo. Hi5 TKD is governed by the World Taekwondo Federation, Kukkiwon and Koryo Taekwondo Association."
+  },
+  {
+    "title": "Owings Martial Arts",
+    "category": ["Sports"],
+    "location": ["Rocklin"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.owingsmartialarts.com/",
+    "description": "We offer programs for Kids, Teen and Adults. We believe in teaching positive family values and successful life skills through Martial Arts Training. With your training you will build Self-Confidence, Discipline, Integrity, Respect, Safety Awareness and Self-Defense Through our life skills, you will develop a positive mental attitude and achieve high goal setting to become successful in life.."
+  },
+  {
+    "title": "El Dorado Hills Brazilian Jiu-Jitsu",
+    "category": ["Sports"],
+    "location": ["El Dorado Hills"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://edhjiujitsu.com/",
+    "description": "El Dorado Hills Brazilian Jiu Jitsu is a Martial Arts School specializing in the Gentle Art of Jiu-Jitsu. We offer classes in: \nBrazilian Jiu Jitsu\nMMA & NoGi Jiu-Jitsu\nWrestling\nYoga\nJudo\n Jiu-Jitsu is the fastest growing martial in the world for it�s practical self-defense applications, healthy lifestyle approach, and dynamic exciting sport competitions. Our instruction, led by World Class trainers, has produced World Class Athletes at the kid, adult and master levels."
+  },
+  {
+    "title": "MVP Sports Unlimited (Baseball, Softball)",
+    "category": ["Sports"],
+    "location": ["Carmichael"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://mvpsportsunlimited.com/",
+    "description": "MVP Sports Unlimited will provide a high quality indoor baseball, softball speed and strength training facility focusing on fundamentals for offense and defense for both the serious and the recreation minded of all ages.\n\nLEARN MORE"
+  },
+  {
+    "title": "Reid Family Martial Arts",
+    "category": ["Sports"],
+    "location": ["Carmichael"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.reidsmartialarts.net/",
+    "description": "Reid's is a family owned and operated martial arts school, dedicated to teaching self-defense and the values of the martial arts since 1965. Reid's offers personal attention and quality instruction in the style of Kenpo Karate."
+  },
+  {
+    "title": "Aikido & Healing Arts of Roseville",
+    "category": ["Sports"],
+    "location": ["Roseville"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://rosevilleaikidocenter.com/main/",
+    "description": "Aikido does not rely on athleticism, or size, or weight, or speed, or reach and can be applied by adults and children alike. In fact, our kids classes are open up to adults so that families can learn together."
+  },
+  {
+    "title": "Aikido Center Sacramento",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.theaikidocenter.com/",
+    "description": "Aikido Center Sacramento offers comprehensive Aikido training in a supportive, non-competitive, and non-violent environment. We provide quality instruction in a traditional setting (dojo) for young people and adults who wish to cultivate their body, mind and spirit through the art of Aikido."
+  },
+  {
+    "title": "Frampton Academy of Martial Arts",
+    "category": ["Sports"],
+    "location": ["El Dorado Hills"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.framptonama.com/",
+    "description": "We have unique, customized programs for all ages and skill levels. We have a special needs program called ATK (Adaptive Therapeutic Karate) Intervention�, designed especially for autistic (all types), ADD, ADHD, Diabetics, etc., of all ages"
+  },
+  {
+    "title": "Norcal Indoor Sports",
+    "category": ["Sports"],
+    "location": ["Woodland"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.norcalindoorsports.com/",
+    "description": "Norcal Indoor Sports is a sporting complex for youths and adults of Woodland, Ca and the greater Sacramento area. We cater to inline hockey leagues, Indoor soccer, volleyball, bubble soccer, indoor batting cages, birthday parties, general public skating, and skating classes. Special events include inline roller hockey tournaments, roller derby, indoor soccer and lacrosse, and organizational parties."
+  },
+  {
+    "title": "West Coast Martial Arts",
+    "category": ["Sports"],
+    "location": ["El Dorado Hills"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.westcoastkickinit.com/",
+    "description": "Our goal is to inspire our students to be self-confident leaders who are respectful of others and able to defend themselves and others if needed. The exciting journey to black belt impacts every area of life, and we believe the martial arts values of discipline, life-long learning, teamwork, and dedication go way beyond merely learning curriculum."
+  },
+  {
+    "title": "Mission El Camino Soccer Club",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.mecsoccer.com/",
+    "description": "Mission El Camino provides a recreational youth soccer program for boys and girls ranging in age from 4 to 19 years. The club is organized and run by a small group of volunteers, many of whom are the parents of our players."
+  },
+  {
+    "title": "Tennis with Cole",
+    "category": ["Sports"],
+    "location": ["Folsom"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.tenniswithcole.com/",
+    "description": "Coach Cole is the rarest of instructors. He not only possesses the skills of a world-class tennis professional but more importantly he knows how to teach each student creatively and individually."
+  },
+  {
+    "title": "Mike Shellito Indoor Pool",
+    "category": ["Sports"],
+    "location": ["Roseville"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.yelp.com/biz/mike-shellito-indoor-pool-roseville?start=40",
+    "description": "Programs at this facility will include a variety of water fitness programs, swimming lessons, lap swimming, land fitness, recreational swimming, and special events."
+  },
+  {
+    "title": "Keller's Taekwondo",
+    "category": ["Sports"],
+    "location": ["Roseville"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.kellerstkd.com/",
+    "description": "Tae Kwon Do has shown to improve your child�s focus and concentration; we have seen firsthand how our program benefits children who are struggling in school."
+  },
+  {
+    "title": "Nunez Martial Arts Academy",
+    "category": ["Sports"],
+    "location": ["Roseville"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.nunezmartialartsacademy.com/",
+    "description": "Our GoalOur goal at NMAA is to provide quality instruction in Martial Arts for children, teens, and adults. In our programs, you will learn effective self defense techniques while increasing your stamina, flexibility, and overall health. Our focus at Nunez Martial Arts Academy is on our students' development and well being. We pride ourselves on providing personalized instruction by getting to know each of our students, and doing our best to meet their needs and expectations. Our unique, self-paced programs allow each student to create personalized goals, while allowing them to take the time they need to achieve those goals."
+  },
+  {
+    "title": "Kajukenbo of Sacramento",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://www.kajukenbosacramento.com/",
+    "description": "At Kajukenbo Sacramento we provide our students with the highest quality of martial arts and self-defense instruction. We want every student�s experience with us to be an enjoyable martial art experience they will always remember."
+  },
+  {
+    "title": "Synergy Force Volleyball Club",
+    "category": ["Sports"],
+    "location": ["Rocklin"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://synergyforcevbc.com/",
+    "description": "We are committed to �TEACH� in a �positive� environment with a �balanced� approach that makes healthy athletes, and people, at all ages.We believe that �WINNING� goes far beyond the court. Our program is built with an emphasis on �ACADEMIC ACHIEVEMENT� and �FAMILY�, supported by uncompromised mutual respect between coaches and athletes, and coaches and parents."
+  },
+  {
+    "title": "Boost Swim School",
+    "category": ["Sports"],
+    "location": ["Folsom"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "http://boostswimschool.com/",
+    "description": "At Boost Swim School, we teach your child to become water safe as quickly as possible and learn to swim using proper stroke mechanics from the beginning."
+  },
+  {
+    "title": "Woodland Gymnastics",
+    "category": ["Sports"],
+    "location": ["Woodland"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.woodlandgymnastics.com/",
+    "description": "Woodland Gymnastics offers a curriculum where all kids win and progress through skill tests and achievement awards. Woodland Gymnastics philosophy is to help kids have fun, explore their world, promote good fitness, drive and work ethic."
+  },
+  {
+    "title": "Bowman Martial Arts",
+    "category": ["Sports"],
+    "location": ["Folsom"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://bowmanmartialarts.com/",
+    "description": "Bowman Martial Arts promises personal instruction with professionalism, caring and fun. We aim to provide the highest quality martial arts training to every student. We were honored as the 2011, 2012, 2013, 2014 and 2015 Favorite Martial Arts Studio and Instructor in Folsom, according to Style Magazine Reader's Choice Awards."
+  },
+  {
+    "title": "Arena Softball",
+    "category": ["Sports"],
+    "location": ["Roseville"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.visitplacer.com/discover/arena-softball/",
+    "description": "Arena Softball� began in Roseville in the winter of 2001 with a trial field set up to develop the game and to \"fine tune\" the rules. This temporary facility was broken down and work started on the real facility. Arena Softball was officially opened on June 21st 2003."
+  },
+  {
+    "title": "Woodcreek Golf Club",
+    "category": ["Sports"],
+    "location": ["Roseville"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://shopgolfroseville.mybigcommerce.com/instruction/after-school-clinics/",
+    "description": "Woodcreek offers golfers of all skills levels a memorable golf experience as well as upscale amenities such as a lighted driving range, fully stocked golf shop, and banquet facilities."
+  },
+  {
+    "title": "Byers Gymnastics Center",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Roseville", "Citrus Heights"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.byersgym.com/",
+    "description": "Byers-Roseville originated in 1986 and provides gymnastics instruction for girls and boys ages walking through teen. We believe that everyone can benefit from the sport of gymnastics and strive to make a difference in the lives of children"
+  },
+  {
+    "title": "Davis Diamonds Gymnastics",
+    "category": ["Sports"],
+    "location": ["Davis"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "https://www.davisdiamondsgymnastics.com/",
+    "description": "Recreational gymnastics classes are for school-aged boys and girls who are interested in learning the basics of the sport in a fun and noncompetitive environment. Classes are arranged somewhat by age; however, within each class, students are grouped by skill level. Instruction is provided on floor, bars and beam; students participate in basic stretching and conditioning."
+  },
+  {
+    "title": "Dynasty Athletic All-Stars",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.dynastyathleticallstars.com/",
+    "description": "At Dynasty, we believe that every child should have an activity that they truly love and look forward to. We believe in this so much that we have become a nonprofit organization. We put most of our profits back into the gym and our athletes. Donations and sponsorships are used to build upon our scholarship program. Being part of Dynasty Athletics provides a wide range of opportunities. Each acitivity challenges our athletes while allowing them to build confidence and strengthen their abilities. Being an athlete at Dynasty offers all of these benefits to young athletes and more. Our staff is dedicated to creating a safe and positive environment for each participant. We have expert coaches that consistently create successful teams, however our real passion is helping children grow into successful and responsible young adults. Dynasty is devoted to building champion level athletes regardless of prior experience."
+  },
+  {
+    "title": "Empire Gymnastics Center",
+    "category": ["Sports"],
+    "location": ["Lincoln"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://empire-gymnastics.com/",
+    "description": "Empire Gymnastics Center is a fun and exciting facility where children and adolescents of all abilities & skill levels can come and receive instruction in gymnastics, tumbling as well as other various activities that promote a healthy active lifestyle for kids!"
+  },
+  {
+    "title": "Flip 2 It Sports Center",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Roseville"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "https://flip2itsportscenter.com/",
+    "description": "Since 1997, Flip 2 It Sports Center has embedded excitement and innovative teaching methods into our classes and activities. Our goal is to instill physical activity as a way of life into the very being of all who walk through our doors.Our mission at Flip 2 It is to provide a facility that is clean, safe, and fun for the whole family. We strive to create an environment where children can learn and develop through movement and exploration."
+  },
+  {
+    "title": "Fliptastic",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Carmichael"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.fliptasticgymnastics.com/",
+    "description": "Fliptastic! is proud to be Carmichael's largest Gymnastic, Dance and Cheer facility. Please come and visit our 21,000 square ft. location. We offer recreational classes and have 8 TeamGym Teams, Artistic, Cheer, Performance Gymnastics and Specialty Dance opportunities."
+  },
+  {
+    "title": "Impact Sports Center",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Lodi"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.impactsportscenter.com/",
+    "description": "Our goal is to build self-esteem, strength and BIG dreams in a fun, safe and clean environment where your child always comes first."
+  },
+  {
+    "title": "International Gymnastics Center, USA",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["West Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.sacramentogymnasticscentre.com/?utm_source=Sacramento4Kids",
+    "description": "Our 15,000 square foot state-of-the-art training facility is fully equipped for mens, womens, acro, and pre-school gymnastics. We are committed to providing high-quality, high-performance products for our athletes, including a selection of both AAI and Speith Anderson apparatuses.\n\nLEARN MORE\nAdvertisement"
+  },
+  {
+    "title": "Joanna's Kids R It",
+    "category": ["Sports", "Dance"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.joannaskidsrit.com/",
+    "description": "All of Joanna�s Kids are provided a supportive non-competitive environment to discover & explore, then test, and develop their skills in the arts of ballet, tap, jazz, and the sport of gymnastics."
+  },
+  {
+    "title": "KABS Tumbling & Fitness",
+    "category": ["Sports"],
+    "location": ["Elk Grove"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.kabstumblingandfitness.com/",
+    "description": "KABS Tumbling & Fitness takes the philosophy that training is a complete developmental process. Learning skills, developing them, and perfecting them can only come through an adequate time line. During this time line, it takes lots of practice and dedication. You must let the skill develop."
+  },
+  {
+    "title": "Life Time Atheletic",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Folsom", "Roseville"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "https://www.lifetimefitness.com/",
+    "description": "Life Time Kids provides your kids with a variety of healthy activities while you work out and throughout the year. The Child Center offers a selection of healthy games and classes for children ages 3 months to 11 years, while swimming, tennis, martial arts and other sports programs help children develop positive behaviors at an early age."
+  },
+  {
+    "title": "Planet Gymnastics",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.planetgymnastics.net/",
+    "description": "New gymnastics skills are introduced in a fun and progressive manner. Through developing gymnastics skills our students enhance their BALANCE, STRENGTH, FLEXIBILITY, COORDINATION, SPATIAL AWARENESS, andFITNESS. Gymnastics classes are a wonderful cross-training for other sports too! Regular evaluations of student�s progress allow advancing to the next level at their own pace."
+  },
+  {
+    "title": "Rega Gymnastics",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://regagym.com/",
+    "description": "REGA�s mission is to help each child reach her (or his) full-potential and DREAM BIG!"
+  },
+  {
+    "title": "Sacramento State Atheletics",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Elementary", "Middle", "High"],
+    "url": "http://hornetsports.com/",
+    "description": "Offering opportunities for kids to enjoy college sports with discounts, kids clubs, and summer camps with multiple sports."
+  },
+  {
+    "title": "SET (Sacramento Elite Tumblers Gymnastics)",
+    "category": ["Sports"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.setgymnastics.com/contact",
+    "description": "SET (Sacramento Elite Tumblers Gymnastics) offers high quality fitness, gymnastics and cheerleading tumbling for children of all ages and instruction levels"
+  },
+  {
+    "title": "Sunrise Recreation & Park District",
+    "category": ["Sports", "Summer/Winter Camp", "Child Care"],
+    "location": ["Citrus Heights"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "http://sunriseparks.com/",
+    "description": "All the recreation opportunities you want for fun and fitness including sports, swim lessons, adult and youth classes, preschool, daycare and more."
+  },
+  {
+    "title": "Technique Kids' Activity Center",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Rachno Cordova"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www2.techniquegym.com/",
+    "description": "Our day camps are designed to keep your kids active while they are not in school by providing them with new adventures and fun activities."
+  },
+  {
+    "title": "Tricks Gymnastics",
+    "category": ["Sports", "Summer/Winter Camp", "Dance"],
+    "location": ["Folsom", "Sacramento"],
+    "age": ["Preschool", "Elementary", "Middle", "High"],
+    "url": "http://www.tricksgym.com/",
+    "description": "We have been successful in the past and will continue to be successful in the future because of one thing, good people teaming together to do great things for children."
+  },
+  {
+    "title": "Tumble Buddies",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Infant/Toddler", "Preschool", "Elementary"],
+    "url": "http://www.tumblebuddies.com/?utm_source=Sacramento4Kids",
+    "description": "At Tumble Buddies we offer gymnastics classes that have structured activities such as games, sign language, relays, and circle times to build confidence, strength in body and mind, and self esteem, all in a fun and imaginative atmosphere."
+  },
+  {
+    "title": "Youngsters Inc.",
+    "category": ["Sports", "Summer/Winter Camp"],
+    "location": ["Sacramento"],
+    "age": ["Preschool", "Elementary"],
+    "url": "https://youngstersgym.com/",
+    "description": "We specialize in..... Right Sized Gymnastics Learning!\nYoungsters is unlike any other children's gym. In addition to providing fun recreational and fitness programs, we teach proper gymnastic technique in programs created by Olympic Silver Medalist Guard Young. At Youngsters, your child can grow in ways he or she (or you!) never imagined.\n\nWe provide an opportunity for learning you simply cannot find anywhere else. We offer a wide range of programs to suit just about everyone�s interest and skill level:\nPre-School Gymnastics\nSchool age boys and girls gymnastics\nTumbling - perfect to compliment Cheer\nGreat Fun Fitness classes Home School Fitness\nPLUS! Birthday parties, \"Parents� Night Out,\" open gym, summer and holiday camps and other programs and activities."
+  }
 ]

@@ -10,38 +10,23 @@ Course.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    course_title: {
+    title: {
       type: DataTypes.STRING,
     },
     url: {
       type: DataTypes.STRING,
-      validate: {
-        isUrl: true,
-      },
     },
     description: {
+      type: DataTypes.TEXT,
+    },
+    location: {
       type: DataTypes.STRING,
     },
-    location_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'location',
-        key: 'id',
-      },
+    category: {
+      type: DataTypes.STRING,
     },
-    category_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'category',
-        key: 'id',
-      },
-    },
-    age_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'age',
-        key: 'id',
-      },
+    age: {
+      type: DataTypes.STRING,
     },
   },
   {

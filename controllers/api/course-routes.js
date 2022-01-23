@@ -2,6 +2,7 @@ const router = require('express').Router();
 const sequelize = require('../../config/connection');
 const { Course, Age, Category, Location } = require('../../models');
 
+
 // //returns all courses as object /api/courses
 router.get('/', (req, res) => {
   Course.findAll()
