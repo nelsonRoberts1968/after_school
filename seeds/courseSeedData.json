@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
   {
     "title": "Academy Learning",
     "category": ["Tutoring", "STEM", "Summer/Winter Camp"],
@@ -1095,4 +1096,14 @@
     "url": "https://youngstersgym.com/",
     "description": "We specialize in..... Right Sized Gymnastics Learning!\nYoungsters is unlike any other children's gym. In addition to providing fun recreational and fitness programs, we teach proper gymnastic technique in programs created by Olympic Silver Medalist Guard Young. At Youngsters, your child can grow in ways he or she (or you!) never imagined.\n\nWe provide an opportunity for learning you simply cannot find anywhere else. We offer a wide range of programs to suit just about everyone�s interest and skill level:\nPre-School Gymnastics\nSchool age boys and girls gymnastics\nTumbling - perfect to compliment Cheer\nGreat Fun Fitness classes Home School Fitness\nPLUS! Birthday parties, \"Parents� Night Out,\" open gym, summer and holiday camps and other programs and activities."
   }
+=======
+    {
+        "title": "Maggie's Class",
+        "ages": "Infant/Toddler",
+        "url": "www.mclass.com",
+        "description": "First test class",
+        "location_id":"1,2,3",
+        "category_id":"1,2"
+    }
+>>>>>>> develop
 ]

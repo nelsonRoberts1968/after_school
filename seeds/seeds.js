@@ -15,7 +15,23 @@ const seedDatabase = async () => {
     individualHooks: true,
     returning: true,
   });
+<<<<<<< HEAD
     
+=======
+  await Location.bulkCreate(locationSeedData, {
+    individualHooks: true,
+    returning: true,
+  });
+  await Course.bulkCreate(courseSeedData, {
+    individualHooks: true,
+    returning: true,
+  });
+  await User.bulkCreate(userSeedData, {
+     individualHooks: true,
+    returning: true,
+  });
+
+>>>>>>> develop
   process.exit(0);
 };
 
