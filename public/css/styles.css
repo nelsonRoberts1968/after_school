@@ -35,7 +35,7 @@ section {
   /* border-radius: 25px; */
 }
 main {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   font-size: 20px;
   color: #0d1450;
@@ -73,7 +73,8 @@ main {
 }
 
 #navbar {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
   font-size: 20px;
   background-color: #ffffff;
   color: #048080fa;
@@ -87,7 +88,7 @@ main {
 }
 
 #navbar a {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   font-size: 20px;
   background-color: #ffffff;
@@ -95,7 +96,7 @@ main {
   text-decoration: none;
 }
 #navbar a:hover {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   font-size: 20px;
   background-color: #57b99e;
@@ -108,7 +109,7 @@ main {
   margin-bottom: 10px;
   height: 70px;
   font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   background-color: #0d1450;
   border: #040b49 solid 1px;
@@ -116,7 +117,7 @@ main {
 }
 footer {
   margin: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
     sans-serif;
   height: 20px;
   text-align: center;
@@ -154,13 +155,13 @@ label {
 }
 .button {
   background-color: #0d1450;
-  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
   font-size: 20px;
   color: #ffffff;
 }
 .form-button {
   background-color: #0d1450;
-  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
   font-size: 20px;
   color: #ffffff;
   margin-left: 250px;
@@ -169,29 +170,42 @@ label {
   font-size: 20px;
   color: #ffffff;
 }
-.formbutton{
-	background-color: #0d1450;
-	font-family: "Calibri", "Trebuchet MS", sans-serif;
-	font-size: 20px;
-	color: #ffffff;
-	margin-left: 250px;
-	margin-right: 250px;
-  }
+.formbutton {
+  background-color: #0d1450;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 250px;
+  margin-right: 250px;
+}
 #footer a {
   text-decoration: none;
   color: #0d1450;
 }
 
-.card-form-container{
-font-size: 18px;
-background-color:#0d1450 ;
-padding: 30px;
-direction: ltr;
-text-align: left;
-line-height: 40px;
+.card-form-container {
+  font-size: 18px;
+  background-color: #0d1450;
+  padding: 30px;
+  direction: ltr;
+  text-align: left;
+  line-height: 40px;
 }
-#emailHelp{
-	font-size: 15px;
+.about-us {
+  border: 13px solid #0d1450;
+  background-image: url(../images/logo-old.jpg);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  /* background-position: left; */
+  margin: 40px 200px 40px 200px;
+  color: black;
+  font-weight: bolder;
+}
+.about-p {
+  margin: 40px 40px 40px 40px;
+}
+#emailHelp {
+  font-size: 15px;
 }
 @media (min-width: 768px) and (max-width: 1096px) {
   .text_column {
@@ -284,7 +298,6 @@ line-height: 40px;
     }
   }
 }
-
 
 /* Maggie's styling updates - please do not remove */
 
