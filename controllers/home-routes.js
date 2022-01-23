@@ -6,6 +6,10 @@ const router = require('express').Router();
 const { Account, Category, Course, Location, User, Age } = require('../models');
 
 //render new event page
+// render homepage
+router.get('/', async (req, res) => {
+  res.render('homepage');
+});
 //layout works
 router.get('/submit', async (req, res) => {
   res.render('newEvent');
@@ -24,9 +28,5 @@ router.get('/signup',(req, res) => {
   res.render('signup');
 });
 
-// render homepage
-router.get('/', async (req, res) => {
-  res.render('homepage');
-});
 
 module.exports = router;
