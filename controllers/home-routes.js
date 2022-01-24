@@ -40,14 +40,7 @@ router.get('/', async (req, res) => {
 router.get('/about', async (req, res) => {
     res.render('about');
 });
-//login
-router.get('/login', async (req, res) => {
-    res.render('login');
-});
 
-router.get('/about',(req,res)=>{
-  res.render('about');
-});
 //get all courses
 router.get('/courses', async (req, res) => {
   try {
