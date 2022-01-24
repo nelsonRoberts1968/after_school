@@ -8,7 +8,7 @@ async function logout() {
   
     if (response.ok) {
       console.log("success");
-      document.location.replace('/login');
+      document.location.replace('/signup');
       
       
     } else {
