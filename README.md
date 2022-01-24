@@ -33,9 +33,21 @@ GitHub Repo: https://github.com/nelsonRoberts1968/after_school/tree/main
 
 Heroku Deployed:https://clubhubkids.herokuapp.com/
 ​
-## Screenshot:
+## Website Homepage
 ​
 ![Screenshot](public/images/landingpage.jpg)
+
+## About US Page
+​
+![Screenshot](public/images/about.jpg)
+
+## Feature Page for Service Providers
+​
+![Screenshot](public/images/feature.jpg)
+
+## Users Signup Page
+​
+![Screenshot](public/images/signup.jpg)
 ​
 ## License:
 ​
