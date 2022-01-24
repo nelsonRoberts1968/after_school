@@ -15,9 +15,7 @@ const seedDatabase = async () => {
     individualHooks: true,
     returning: true,
   });
-<<<<<<< HEAD
     
-=======
   await Location.bulkCreate(locationSeedData, {
     individualHooks: true,
     returning: true,
@@ -31,7 +29,6 @@ const seedDatabase = async () => {
     returning: true,
   });
 
->>>>>>> develop
   process.exit(0);
 };
 
