@@ -37,6 +37,8 @@
     "sequelize": "^6.13.0",
     "session": "^0.1.0"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
-
+}
