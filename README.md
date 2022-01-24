@@ -5,10 +5,10 @@ Club Hub Kids was developed by parents with first-hand knowledge and experience 
 ## User Story
 ​
 As a parent
-I want to be able to find classes and camps appropriate for my needs
+I want to be able to find classes and camps appropriate for my child
 When I filter by category, I am shown classes only in that category
 When I filter by location, I am shown classes only in that location
-When I signup, I will have access to an account where I can store registrations and share events with other local parents/caregivers.
+When I signup, I will have access to an account where I can store registrations and share events with other local parents/caregivers/service providers.
  
 ​
 ## Technologies:
@@ -34,7 +34,7 @@ Heroku Deployed:
 ​
 ## Screenshot:
 ​
-![Screenshot](public/images/screenshot.jpg)
+![Screenshot](public/images/landingpage.jpg)
 ​
 ## License:
 ​
