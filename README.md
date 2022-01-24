@@ -47,7 +47,7 @@ Heroku Deployed:https://clubhubkids.herokuapp.com/
 
 ## Users Signup Page
 ​
-![Screenshot](public/images/signup.jpg)
+![Screenshot](public/images/sigup.jpg)
 ​
 ## License:
 ​
