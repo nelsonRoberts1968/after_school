@@ -30,7 +30,8 @@ npm install
 ### Links
 ​
 GitHub Repo: https://github.com/nelsonRoberts1968/after_school/tree/main
-Heroku Deployed:
+
+Heroku Deployed:https://clubhubkids.herokuapp.com/
 ​
 ## Screenshot:
 ​
