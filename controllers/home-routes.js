@@ -6,12 +6,11 @@ const router = require('express').Router();
 const { Account, Category, Course, Location, User, Age } = require('../models');
 
 
-//temporary disable homerout signup logic
+//Check for session if loggedIn then route to signup
 router.get('/',(req, res) => {
   console.log("here it is");
   console.log(req.session.loggedIn);
   if(req.session.loggedIn){
-    
     res.render('homepage');
   }else{
     res.render('signup');
