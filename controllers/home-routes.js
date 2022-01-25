@@ -7,16 +7,15 @@ const { Account, Category, Course, Location, User, Age } = require('../models');
 
 
 //temporary disable homerout signup logic
-// router.get('/',(req, res) => {
-//   if(req.session.loggedIn){
-//     res.render('homepage');
-//   }else{
-//     res.render('signup');
-//   }
-
-// render homepage
 router.get('/',(req, res) => {
+  console.log("here it is");
+  console.log(req.session.loggedIn);
+  if(req.session.loggedIn){
+    
     res.render('homepage');
+  }else{
+    res.render('signup');
+  }
 });
 
 //Signup
@@ -36,11 +35,6 @@ router.get('/submit', async (req, res) => {
 
 router.get('./view/about', (req, res) => {
   res.render('main', { layout: 'about' });
-});
-
-//about
-router.get('/about',(req, res) => {
-    res.render('about');
 });
 
 //login
