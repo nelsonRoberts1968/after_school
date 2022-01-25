@@ -5,7 +5,25 @@ const sequelize = require('../config/connection');
 const router = require('express').Router();
 const { Account, Category, Course, Location, User, Age } = require('../models');
 
-//render all courses
+
+//temporary disable homerout signup logic
+// router.get('/',(req, res) => {
+//   if(req.session.loggedIn){
+//     res.render('homepage');
+//   }else{
+//     res.render('signup');
+//   }
+
+// render homepage
+router.get('/',(req, res) => {
+    res.render('homepage');
+});
+
+//Signup
+router.get('/signup',(req, res) => {
+  res.render('signup');
+});
+
 router.get('/courses', (req, res) => {
   res.render('courses');
 });
@@ -15,48 +33,28 @@ router.get('/submit', async (req, res) => {
   res.render('newEvent');
 });
 
-//Login with seession
-router.get('/login', (req, res) => {
-  if (req.session.loggedIn) {
-    res.redirect('/');
-    return;
-  }
-  res.render('login');
+
+router.get('./view/about', (req, res) => {
+  res.render('main', { layout: 'about' });
 });
 
-//render signup page
-router.get('/signup',(req, res) => {
-  res.render('signup');
-});
-
-//
-// router.get('./view/about', (req, res) => {
-//   res.render('main', { layout: 'about' });
-// const withAuth = require('./auth');
-
-
-// render homepage
-router.get('/', async (req, res) => {
-  res.render('homepage');
-});
 //about
-router.get('/about', async (req, res) => {
+router.get('/about',(req, res) => {
     res.render('about');
 });
+
 //login
-// router.get('/login', async (req, res) => {
-//     res.render('login');
-// });
 router.get('/login', (req, res) => {
   if (req.session.loggedIn) {
     res.redirect('/');
-    return;
-  };
+  }else{
+  res.render('login');
+  }
 });
 
-// router.get('/about',(req,res)=>{
-//   res.render('about');
-// });
+router.get('/about',(req,res)=>{
+  res.render('about');
+});
 //get all courses
 router.get('/courses', async (req, res) => {
   try {
@@ -81,15 +79,14 @@ router.get('/courses/:id', withAuth, async (req, res) => {
 
     const courses = dbCourseData.get({ plain: true });
 
-    res.render('courses', { courses, loggedIn: req.session.loggedIn });
+    res.render('courses', { course, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
   }
 });
 
-//render featured
-router.get('/featured', async (req, res) => {
+router.get('/featured',(req, res) => {
     res.render('presentCourses');
 });
 module.exports = router;

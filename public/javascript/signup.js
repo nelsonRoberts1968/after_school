@@ -25,4 +25,4 @@ async function signupFormHandler(event) {
       }
     }
   }
-document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
+document.querySelector('.form-container').addEventListener('submit', signupFormHandler);
