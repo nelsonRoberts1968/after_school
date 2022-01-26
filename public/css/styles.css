@@ -258,6 +258,84 @@ line-height: 40px;
   padding: 20px;
   line-height:10px;
 } */
+
+
+/*Login and signup form design*/
+.form-container {
+  background: #fff;
+  display:flex;
+  flex-direction: column;
+  padding: 0 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+}
+.form-button{
+  border-radius: 20px;
+  border:1px solid #0D1450;
+  background:#040B49;
+  color:#fff;
+  font-size: 14px;
+  font-weight:bold;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: tranform 80ms ease-in;
+  width:300px;
+}
+.logout-button{
+    border-radius: 20px;
+    border:1px solid #0D1450;
+    background:#040B49;
+    color:#fff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: tranform 80ms ease-in;
+    width:75px;
+}
+.form-button:active{
+  transform: scale(0.95);
+}
+.form-container input{
+  background: #eee;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding:5px;
+  width:350px;
+  border-color: gray;
+}
+.card-form-container a{
+  font-size: 18px;
+  font-weight:bold;
+  margin-top: 20px;
+}
+#logout-button{
+  background:#040B49;
+  color:white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* Maggie's styling updates - please do not remove */
+.outlined {
+  border: #9E9FA1 0.5px solid;
+  margin: 10px;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+.form-container{
+  background: #fff;
+  border-radius: 20px;
+  width: 600px;
+  box-shadow: 0px 0px 0px 0px;
+  margin :auto;
+  padding: 10px;
+}
+label{
+  justify-content: flex-end;
+}
 @media (min-width: 768px) and (max-width: 1096px) {
   .text_column {
     width: 100%;
@@ -339,80 +417,4 @@ line-height: 40px;
       font-size: 14px;
     }
   }
-}
-/*Login and signup form design*/
-.form-container {
-  background: #fff;
-  display:flex;
-  flex-direction: column;
-  padding: 0 50px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 450px;
-}
-.form-button{
-  border-radius: 20px;
-  border:1px solid #0D1450;
-  background:#040B49;
-  color:#fff;
-  font-size: 14px;
-  font-weight:bold;
-  margin-top: 50px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: tranform 80ms ease-in;
-  width:300px;
-}
-.logout-button{
-    border-radius: 20px;
-    border:1px solid #0D1450;
-    background:#040B49;
-    color:#fff;
-    font-size: 10px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: tranform 80ms ease-in;
-    width:75px;
-}
-.form-button:active{
-  transform: scale(0.95);
-}
-.form-container input{
-  background: #eee;
-  border-radius: 15px;
-  margin-top: 30px;
-  padding:5px;
-  width:350px;
-  border-color: gray;
-}
-.card-form-container a{
-  font-size: 18px;
-  font-weight:bold;
-  margin-top: 20px;
-}
-#logout-button{
-  background:#040B49;
-  color:white;
-  border-radius: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-/* Maggie's styling updates - please do not remove */
-.outlined {
-  border: #9E9FA1 0.5px solid;
-  margin: 10px;
-  padding: 5px;
-  justify-content: space-evenly;
-}
-.form-container{
-  background: #fff;
-  border-radius: 20px;
-  width: 600px;
-  box-shadow: 0px 0px 0px 0px;
-  margin :auto;
-  padding: 10px;
-}
-label{
-  justify-content: flex-end;
 }
